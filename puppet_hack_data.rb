@@ -7,6 +7,7 @@ class PuppetHackData
   @repos = []
   # The list of repos we want to track for puppet hack
   @default_repos = ['puppetlabs/facter', 'puppetlabs/puppet', 'puppetlabs/hiera']
+  @pull_requests = []
 
   OptionParser.new do |opts|
     opts.on("--oauth_token TOKEN") do |token|
@@ -55,6 +56,17 @@ class PuppetHackData
 
   @client = Octokit::Client.new(:access_token => @options[:token])
 
-  puts @repos
+  @repos.each do |repo|
+    @client.pulls(repo, {:state=> 'open'}).each do |pr|
+      @pull_requests << {:repo => repo,
+        :number => pr.id,
+        :title => pr.title,
+        :author => pr.user[:login],
+        :opend => pr.created_at,
+        :closed  => pr.closed_at,
+        :puppethack => (pr.title.index(/puppethack/i) ? true : false)}
+    end
+  end
 
+  puts @pull_requests
 end
