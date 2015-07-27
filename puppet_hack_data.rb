@@ -17,8 +17,8 @@ class PuppetHackData
                     'puppetlabs/puppetlabs-reboot', 'puppetlabs/puppetlabs-acl', 'puppetlabs/puppetlabs-aws', 'puppetlabs/puppetlabs-docker_platform']
   @pull_requests = []
   # puppet hack takes place on 2015-07-30 from 4am-4pm
-  @end_time = Time.new(2015,07,26,00,00)
-  @start_time = Time.new(2015,07,01,00,00)
+  @end_time = Time.new(2015,07,30,04,00)
+  @start_time = Time.new(2015,07,30,16,00)
 
   OptionParser.new do |opts|
     opts.on("--oauth_token TOKEN") do |token|
@@ -49,6 +49,16 @@ class PuppetHackData
 
   ARGV.each do |arg|
     @repos << arg
+  end
+
+  if @options[:start_date]
+    sta = @options[:start_date].split(":")
+    @start_time = Time.new(sta[0], sta[1], sta[2], sta[3], sta[4])
+  end
+
+  if @options[:end_date]
+    eta = @options[:end_date].split(":")
+    @end_time = Time.new(eta[0], eta[1], eta[2], eta[3], eta[4])
   end
 
   if @options[:token].nil?
