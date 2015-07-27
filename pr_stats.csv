@@ -1,0 +1,188 @@
+Repository,Number,Title,Author,Opened At,Closed At,Contains [puppethack]
+puppetlabs/puppet,4104,(PUP-735) Fail when cannot apply complete catalog,scenek,2015-07-24 20:51:56 UTC,,false
+puppetlabs/puppet,4103,(PUP-4622) Adding acceptance test for filebucket diff command,shaigy,2015-07-24 18:26:08 UTC,,false
+puppetlabs/puppet,4101,(PUP-2289) Add test when hosts file is malformed,johnduarte,2015-07-24 00:07:51 UTC,,false
+puppetlabs/puppet,4100,(PUP-4919) static compiler always sets ensure parameter to 'file' if a,tdevelioglu,2015-07-23 14:02:05 UTC,,false
+puppetlabs/puppet,4099,(maint) Use tags for Windows MSI dependencies,Iristyle,2015-07-22 17:53:45 UTC,,false
+puppetlabs/puppet,4098,(docs) Update description of cfacter setting for Facter 3.0,nfagerlund,2015-07-22 17:14:19 UTC,,false
+puppetlabs/puppet,4097,PUP-4918 - Updated Red Hat logrotate and init scripts,lzap,2015-07-21 13:26:55 UTC,,false
+puppetlabs/puppet,4092,Load systemd services from list-units,raphink,2015-07-16 12:06:52 UTC,,false
+puppetlabs/puppet,4084,(PUP-3328) tidy should follow symlinks,clehene,2015-07-13 23:05:45 UTC,,false
+puppetlabs/puppet,4077,(PUP-4490) Pick up bindings from module's metadata.json,thallgren,2015-07-09 09:35:45 UTC,,false
+puppetlabs/puppet,4059,Some of the user attributes in Aix could be UPPERCASE ,kalugen,2015-06-30 11:03:16 UTC,,false
+puppetlabs/puppet,4052,(PUP-4781) filemode retrieved by static_compiler should be stringified,tdevelioglu,2015-06-24 13:53:56 UTC,,false
+puppetlabs/puppet,4042,(PUP-4634) Add some timings/metrics in report,fihuer,2015-06-22 07:35:32 UTC,,false
+puppetlabs/puppet,4039,(PUP-4761) Add --show-changes option to summarize changes,fihuer,2015-06-17 12:01:13 UTC,,false
+puppetlabs/puppet,4038,(PUP-4760) Service type should not retrieve ensure status when not needed,fihuer,2015-06-17 11:13:30 UTC,,false
+puppetlabs/puppet,4037,DO NOT MERGE: (PUP-2315) - Type validation error messages,thallgren,2015-06-16 09:25:49 UTC,,false
+puppetlabs/puppet,4036,(PUP-4458) Refactor validation of parameter signatures,thallgren,2015-06-16 09:23:18 UTC,,false
+puppetlabs/puppet,4032,(PUP-3263) Adds `architecture` parameter,petems,2015-06-13 18:54:10 UTC,,false
+puppetlabs/puppet,4028,DO NOT MERGE: (PUP-4747) Change PopsBridge::Expression.to_s to return the source,hlindberg,2015-06-12 18:15:17 UTC,,false
+puppetlabs/puppet,4021,(PUP-3774) Use gpasswd when making group membership changes in a user resource,branan,2015-06-09 23:16:03 UTC,,false
+puppetlabs/puppet,3984,(PUP-4673) Use proxy when fetching latest for pip packages,nibalizer,2015-05-30 00:38:06 UTC,,false
+puppetlabs/puppet,3963,(doc) Clarify auth_membership,ferventcoder,2015-05-22 21:49:56 UTC,,false
+puppetlabs/puppet,3953,(PUP-4619) sort fstab entries,ffrank,2015-05-19 17:01:35 UTC,,false
+puppetlabs/puppet,3938,(docs) Show more useful defaults for special directories in configuration reference,nfagerlund,2015-05-15 18:38:08 UTC,,false
+puppetlabs/puppet,3931,(PUP-4602) Add rcng service provider,jasperla,2015-05-13 18:29:44 UTC,,false
+puppetlabs/puppet,3920,(PUP-4342) add acceptance to call all parser functions,er0ck,2015-05-12 21:00:16 UTC,,false
+puppetlabs/puppet,3748,(PUP-1072) HTTP(S) support for the file type,ffrank,2015-03-25 01:08:44 UTC,,false
+puppetlabs/puppet,3687,(PUP-598) Add gpasswd support to Group provider ,trevor-vaughan,2015-03-05 20:58:59 UTC,,false
+puppetlabs/puppet,3107,(PUP-3319) Retry to send report if connection to master fails,roidelapluie,2014-09-19 19:22:49 UTC,,false
+puppetlabs/puppet,3043,(PUP-3116) Optimize the read of the system mounts in selinux,trevor-vaughan,2014-09-03 02:16:22 UTC,,false
+puppetlabs/facter,1075,(FACT-1145) Add virtualization resolver for OpenBSD,jasperla,2015-07-23 08:20:31 UTC,,false
+puppetlabs/facter,1074,(FACT-1144) Add memory resolver for OpenBSD,jasperla,2015-07-23 08:11:50 UTC,,false
+puppetlabs/facter,1073,(FACT-1143) Add processor resolver for OpenBSD,jasperla,2015-07-23 07:32:45 UTC,,false
+puppetlabs/facter,1072,(maint) Confirm doxygen issues no warnings,MikaelSmith,2015-07-23 00:32:14 UTC,,false
+puppetlabs/facter,1071,(maint) Simplify Travis scripts and add check for commit summaries,MikaelSmith,2015-07-22 23:21:04 UTC,,false
+puppetlabs/facter,1067,(FACT-1136) Move Ruby API to Leatherman,Magisus,2015-07-21 16:32:35 UTC,,false
+puppetlabs/facter,1059,(FACT-1129) Correctly setup Ruby load path to unbreak loading rbconfig,jasperla,2015-07-16 16:31:02 UTC,,false
+puppetlabs/facter,1054,(FACT-1123) Retry locale setup with LANG=C when we fail,branan,2015-07-14 22:38:52 UTC,,false
+puppetlabs/facter,1013,(FACT-950) Un-vendor leatherman,branan,2015-07-06 16:24:24 UTC,,false
+puppetlabs/r10k,471,Update test run scripts to use 2015.2,zreichert,2015-07-10 22:33:32 UTC,,false
+puppetlabs/r10k,464,Maintenance,zreichert,2015-07-06 22:28:08 UTC,,false
+puppetlabs/r10k,461,Added support to actually use forge directive in Puppetfiles,hickey,2015-06-26 07:53:40 UTC,,false
+puppetlabs/r10k,458,#455 fix issue on windows where path include spaces,lmayorga1980,2015-06-19 14:43:09 UTC,,false
+puppetlabs/r10k,417,Add --parallel option to `r10k puppetfile install`,dominics,2015-05-07 01:54:21 UTC,,false
+puppetlabs/r10k,362,(#106) use forge directive so r10k works with using local forges set in ...,toadbarrage,2015-03-19 23:09:49 UTC,,false
+puppetlabs/r10k,316,Add the local module type,cybem,2015-02-22 11:08:21 UTC,,false
+puppetlabs/r10k,255,Add 'strip_branchname_prefix' option for git,jonnangle,2014-12-11 16:15:45 UTC,,false
+puppetlabs/r10k,107,REVIEW: Librarian-puppet integration,ryandoyle,2014-04-22 03:06:15 UTC,,false
+puppetlabs/r10k,88,Port of librarian-puppet local sources,ironpinguin,2014-02-02 17:35:36 UTC,,false
+puppetlabs/puppet-server,646,(PE-8226) jruby events,cprice404,2015-07-25 05:45:27 UTC,,false
+puppetlabs/beaker,902,(BKR-412) clarify 'types' in beaker,anodelman,2015-07-24 16:47:25 UTC,,false
+puppetlabs/beaker,899,(BKR-414) install_pe_on assumes hosts will be an array,anodelman,2015-07-20 22:47:03 UTC,,false
+puppetlabs/beaker,897,(BKR-411) Set host.ip for Fusion hypervisor,johnduarte,2015-07-18 15:48:15 UTC,,false
+puppetlabs/beaker,895,"(BKR-410) `confine :except, {}, [host1,host2]` does not work as expected",anodelman,2015-07-16 18:39:28 UTC,,false
+puppetlabs/beaker,893,BKR-408 Supporting solaris as a beakernode,biemond,2015-07-16 08:20:41 UTC,,false
+puppetlabs/beaker,886,"(BKR-393) fixed ubuntu PM URLs, didn't match package versions",kevpl,2015-07-10 21:58:22 UTC,,false
+puppetlabs/beaker,885,(BKR-391) Add fqdn to /etc/hosts,mcanevet,2015-07-10 13:14:50 UTC,,false
+puppetlabs/beaker,870,(BKR-349) AwsSdk Hypervisor Specs (for review <3),vindir,2015-06-30 22:28:58 UTC,,false
+puppetlabs/beaker,868,(BKR-366) merge-up install_from_git changes from deployer and puppet,er0ck,2015-06-30 00:26:17 UTC,,false
+puppetlabs/beaker,865,(BKR-208) Preserve SUT host output,madAndroid,2015-06-28 17:48:17 UTC,,false
+puppetlabs/beaker,864,(BKR-321) Added lxc driver/hypervisor for beaker,ashish1099,2015-06-26 04:44:50 UTC,,false
+puppetlabs/beaker,854,(BKR-330) (DONT MERGE) Would code like this work?,petems,2015-06-16 14:40:23 UTC,,false
+puppetlabs/marionette-collective,298,(maint) AIO path updates,joshcooper,2015-02-26 05:04:48 UTC,,false
+puppetlabs/marionette-collective,203,(MCO-386) MCO README.md should express semver,MosesMendoza,2014-07-11 23:06:57 UTC,,false
+puppetlabs/marionette-collective,170,Split agent reply timeout from execution timeout,ncdc,2014-03-07 21:17:20 UTC,,false
+puppetlabs/puppetdb,1560,(maint) Add secondsToWaitForCompletion cmd param,mullr,2015-07-24 23:53:04 UTC,,false
+puppetlabs/puppetdb,1559,(DOC-2166) fix broken link,jtappa,2015-07-24 01:07:08 UTC,,false
+puppetlabs/puppetdb,1558,(PDB-1313) Add statistics to puppetdb.commands,rbrw,2015-07-23 23:11:00 UTC,,false
+puppetlabs/puppetdb,1553,(PDB-1809) improve aggregate event counts performance,wkalt,2015-07-20 21:34:07 UTC,,false
+puppetlabs/puppetdb,1547,(maint) Add access to packaging repo,melissa,2015-07-16 17:55:59 UTC,,false
+puppetlabs/puppetdb,1543,(PDB-1313) Update deactivated timestamp if newer,rbrw,2015-07-15 19:15:30 UTC,,false
+puppetlabs/puppetdb,1514,Testing out cljfmt on 2.3.x,senior,2015-07-06 14:44:48 UTC,,false
+puppetlabs/razor,497,mongodb plugin does not do any authentication,rgnine,2013-07-03 13:05:43 UTC,,false
+puppetlabs/razor,495,Add an ext_path configuration option to load external custom code.,fnichol,2013-06-28 21:58:39 UTC,,false
+puppetlabs/razor,494,Fix filtered queries on array and fixnum values,mhanco,2013-06-27 13:56:22 UTC,,false
+puppetlabs/razor,487,"Use node_ip_address, not non-existent node_ip, in the Xenserver IP Pool model template",mhanco,2013-06-19 00:04:06 UTC,,false
+puppetlabs/razor,456,Script Broker: Pre and Post Server-side Hooks,calebcase,2013-04-15 22:14:17 UTC,,false
+puppetlabs/razor,439,Added Debian-based package installation to the puppet agent install to avoid dual facter installation by both gem and apt-get,jonasrosland,2013-03-28 13:30:59 UTC,,false
+puppetlabs/razor,309,Support for BMC chassis identification,vholer,2013-01-10 00:01:41 UTC,,false
+puppetlabs/razor,276,Puppet enterprise broker,sdunster,2012-12-14 03:55:28 UTC,,false
+puppetlabs/puppetlabs-vcsrepo,257,Explitly unset SSH_AUTH_SOCK; it is preferred to the -i flag,alexmv,2015-07-23 18:21:14 UTC,,false
+puppetlabs/puppetlabs-vcsrepo,245,fix for force => false not being honoured,chrisleavoy,2015-04-18 00:20:46 UTC,,false
+puppetlabs/puppetlabs-vcsrepo,239,sanity check for presence of Puppet::Util::Execution.execute,wickedOne,2015-03-25 06:51:27 UTC,,false
+puppetlabs/puppetlabs-vcsrepo,234,Allow git :user and :identity at the same time.,wisq-minted,2015-02-03 21:50:58 UTC,,false
+puppetlabs/puppetlabs-stdlib,491,Style fixes,ekohl,2015-07-25 11:35:20 UTC,,false
+puppetlabs/puppetlabs-stdlib,486,[MODULES-2234] - Add checksum_file function to compute file checksum,amuraru,2015-07-14 20:31:01 UTC,,false
+puppetlabs/puppetlabs-stdlib,483,Add load_metadata_json function,nibalizer,2015-07-09 17:56:04 UTC,,false
+puppetlabs/puppetlabs-stdlib,451,Added replace attribute,WhatsARanjit,2015-05-07 22:03:10 UTC,,false
+puppetlabs/puppetlabs-stdlib,442,Adding a respond_to function,danzilio,2015-04-20 23:05:49 UTC,,false
+puppetlabs/puppetlabs-stdlib,436,Can use a captured string in match parameter,melkor,2015-04-14 15:11:04 UTC,,false
+puppetlabs/puppetlabs-stdlib,435,Added an second argument to getvar for a optional default,solarkennedy,2015-04-10 22:12:53 UTC,,false
+puppetlabs/puppetlabs-stdlib,424,(#MODULES-865) validate_re cannot match numeric regex in all cases,ripzura,2015-03-08 09:53:26 UTC,,false
+puppetlabs/puppetlabs-stdlib,330,Added dump_args statement function for debugging puppet code,logicminds,2014-09-26 17:48:37 UTC,,false
+puppetlabs/puppetlabs-stdlib,325,loadyaml function should be able to read files from module path,amuraru,2014-09-23 09:33:44 UTC,,false
+puppetlabs/puppetlabs-stdlib,324,Add convert_base function,bobtfish,2014-09-22 21:46:15 UTC,,false
+puppetlabs/puppetlabs-stdlib,304,Add new function `deep_merge`.,riton,2014-07-21 09:16:19 UTC,,false
+puppetlabs/puppetlabs-stdlib,272,add a filter_hash function,roidelapluie,2014-06-16 20:04:39 UTC,,false
+puppetlabs/puppetlabs-stdlib,263,Remove matching lines in absent file_line,yath,2014-05-27 19:38:46 UTC,,false
+puppetlabs/puppetlabs-stdlib,249,Set arity on all functions,dalen,2014-05-07 12:48:52 UTC,,false
+puppetlabs/puppetlabs-apt,551,Expose notify_update to apt::conf,bdellegrazie,2015-07-23 17:34:01 UTC,,false
+puppetlabs/puppetlabs-apt,528,MODULES-2102 add proxy exception parameter,invertigo,2015-06-05 20:47:27 UTC,,false
+puppetlabs/puppetlabs-apt,517,Change to stop apt-get update being considered a 'change' in a puppet run.,aug24,2015-04-30 08:00:54 UTC,,false
+puppetlabs/puppetlabs-apt,509,Add feature to overwrite sources.list with custom file,m-o-n-k,2015-04-24 12:54:35 UTC,,false
+puppetlabs/puppetlabs-concat,359,Backup option breaks concat,j-vizcaino,2015-07-23 18:13:58 UTC,,false
+puppetlabs/puppetlabs-concat,358,"Recent OpenBSD changed to ruby22 as default interpreter, that now",buzzdeee,2015-07-22 18:22:47 UTC,,false
+puppetlabs/puppetlabs-apache,1162,Adding use_optional_includes parameter to vhost define.,cropalato,2015-07-24 17:51:38 UTC,,false
+puppetlabs/puppetlabs-apache,1160,add possibility to set icons_path to false so no alias will be set for it,tjikkun,2015-07-22 12:29:09 UTC,,false
+puppetlabs/puppetlabs-apache,1159,Add support for user modifiable installation of mod_systemd and pidfile locations:,vamegh,2015-07-22 11:35:32 UTC,,false
+puppetlabs/puppetlabs-apache,1158,mod_passenger: Allow setting PassengerSpawnMethod,wubr,2015-07-17 14:14:33 UTC,,false
+puppetlabs/puppetlabs-apache,1156,Fix _proxy.erb for SetEnv within ProxyMatch.,dconry,2015-07-15 18:15:35 UTC,,false
+puppetlabs/puppetlabs-apache,1155,mod::alias should be included when the aliases parameter is used,pcfens,2015-07-07 03:07:56 UTC,,false
+puppetlabs/puppetlabs-apache,1154,Include full path for UserDir directive,pcfens,2015-07-06 20:59:33 UTC,,false
+puppetlabs/puppetlabs-apache,1153,Make Docroot optional,robbat2,2015-07-06 06:59:57 UTC,,false
+puppetlabs/puppetlabs-apache,1152,Feature/master/passengerbaseuri,aronymous,2015-07-03 14:52:02 UTC,,false
+puppetlabs/puppetlabs-apache,1150,(MODULES-2179) changes to add support for SetEnvIfNoCase,shanmer,2015-07-01 13:36:32 UTC,,false
+puppetlabs/puppetlabs-apache,1149,(maint) Drop testing of ruby 1.8 in travis,kylog,2015-06-30 00:16:54 UTC,,false
+puppetlabs/puppetlabs-apache,1148,Fix: missing package for mod_geoip on Debian systems,olivierHa,2015-06-29 09:32:05 UTC,,false
+puppetlabs/puppetlabs-apache,1146,Adding support to mod_disk_cache for >= 2.4,JamieCressey,2015-06-24 10:27:56 UTC,,false
+puppetlabs/puppetlabs-apache,1122,removing the default declaration to allow override.,daveseff,2015-05-17 21:17:58 UTC,,false
+puppetlabs/puppetlabs-apache,1120,SecRuleEngine parameter for modsecurity,unixninja,2015-05-08 20:41:47 UTC,,false
+puppetlabs/puppetlabs-apache,1119,Fix additional includes in vhost,ckaenzig,2015-05-08 11:36:52 UTC,,false
+puppetlabs/puppetlabs-apache,1114,Adding RewriteOptions parameter,gmodules,2015-05-05 16:36:18 UTC,,false
+puppetlabs/puppetlabs-apache,1094,Allow to fully remove a vhost with special configurations,cjeanneret,2015-04-01 07:23:37 UTC,,false
+puppetlabs/puppetlabs-postgresql,674,Fix postgis default package name on RedHat,ckaenzig,2015-07-23 08:02:15 UTC,,false
+puppetlabs/puppetlabs-postgresql,672,Add proxy option for yum repositories,GoozeyX,2015-07-15 13:32:15 UTC,,false
+puppetlabs/puppetlabs-postgresql,671,Allow for undefined PostGIS version.,SteveMaddison,2015-07-10 11:27:53 UTC,,false
+puppetlabs/puppetlabs-postgresql,656,MODULES-661-Remote postgres control,petems,2015-06-29 22:03:42 UTC,,false
+puppetlabs/puppetlabs-postgresql,637,Fixes MODULES_2059 - adds extension argument,TJM,2015-06-04 20:32:37 UTC,,false
+puppetlabs/puppetlabs-postgresql,621,Ordering fixups,dougneal,2015-05-08 18:01:26 UTC,,false
+puppetlabs/puppetlabs-postgresql,607,Repo priority centos,pooh22,2015-04-01 10:48:19 UTC,,false
+puppetlabs/puppetlabs-ntp,263,Adding ::operatingsystem Amazon,dmcnaught,2015-05-04 21:02:07 UTC,,false
+puppetlabs/puppetlabs-ntp,194,enhanced default configuration,SWATx,2014-09-02 16:22:34 UTC,,false
+puppetlabs/puppetlabs-inifile,170,(maint) Fix README for ini_setting parameters,thrnio,2015-06-16 00:16:50 UTC,,false
+puppetlabs/puppetlabs-inifile,156,create resources,ghoneycutt,2015-03-27 19:30:46 UTC,,false
+puppetlabs/puppetlabs-inifile,152,Added keep_secret parameter feature,stepanstipl,2015-03-09 13:55:28 UTC,,false
+puppetlabs/puppetlabs-inifile,151,Support ruby 210,ghoneycutt,2015-02-17 21:32:35 UTC,,false
+puppetlabs/puppetlabs-inifile,148,Add ability to specify a hash of ini_settings and ini_subsettings.,ghoneycutt,2015-02-16 10:08:12 UTC,,false
+puppetlabs/puppetlabs-inifile,138,Feature: Subsetting val separator,beezly,2014-12-17 17:18:47 UTC,,false
+puppetlabs/puppetlabs-mysql,714,Generate configuration file before the package installation,hikaru-noda,2015-05-14 03:28:52 UTC,,false
+puppetlabs/puppetlabs-mysql,710,#2030 Only establish dependency between service and package if package is managed.,jearls,2015-05-09 00:18:49 UTC,,false
+puppetlabs/puppetlabs-mysql,704,Added $onlyif_empty to db.pp,gibbsoft,2015-04-27 21:29:24 UTC,,false
+puppetlabs/puppetlabs-mysql,692,set show_diff to false for file with password,applewiskey,2015-03-19 12:01:29 UTC,,false
+puppetlabs/puppetlabs-mysql,682,Remove default install root password if set,JCotton1123,2015-03-03 16:07:22 UTC,,false
+puppetlabs/puppetlabs-mysql,586,(MODULES-1685) permit use of mysql::db without mysql::server,larsks,2014-10-24 18:26:11 UTC,,false
+puppetlabs/puppetlabs-mysql,462,Defined type for managing conf.d entries,dcarley,2014-02-24 13:00:58 UTC,,false
+puppetlabs/puppetlabs-java,120,Support for provided jdk/jre package files,aielo,2015-05-25 00:50:13 UTC,,false
+puppetlabs/puppetlabs-java,117,add two facts: libjvm and java executable paths,faxm0dem,2015-05-05 13:23:49 UTC,,false
+puppetlabs/puppetlabs-java,116,Support more distribution strings,dawi,2015-04-26 22:16:08 UTC,,false
+puppetlabs/puppetlabs-haproxy,189,"Handle /etc/default/haproxy better, do not damage other content.",robbat2,2015-06-25 02:21:28 UTC,,false
+puppetlabs/puppetlabs-haproxy,175,"Fix MODULES-1919: ""bind"" statements should be sorted by IP, not lexigraphically",TomOnTime,2015-04-07 15:46:51 UTC,,false
+puppetlabs/puppetlabs-haproxy,166,Add haproxy::instance for the creation of multiple instances of haproxy,tlimoncelli,2015-03-11 15:44:06 UTC,,false
+puppetlabs/puppetlabs-haproxy,121,parameterize configuration defaults in haproxy::params,hesco,2014-08-17 01:56:08 UTC,,false
+puppetlabs/puppetlabs-java_ks,93,Add an option to provide a password for keys in the keystore,ak0ska,2014-10-24 15:09:37 UTC,,false
+puppetlabs/puppetlabs-registry,92,(maint) puppetlabs_spec_helper ~>0.10.3,ferventcoder,2015-07-23 19:28:59 UTC,,false
+puppetlabs/puppetlabs-registry,91,[DO NOT MERGE](FM-3089) Prepare 1.1.1 release,cyberious,2015-07-20 18:52:05 UTC,,false
+puppetlabs/puppetlabs-registry,80,(MODULES-422) HKEY_USERS support,solcates,2015-05-08 02:04:23 UTC,,false
+puppetlabs/puppetlabs-registry,79,(maint) Multiple node acceptance fixes,Iristyle,2015-03-31 00:33:44 UTC,,false
+puppetlabs/puppetlabs-powershell,63,(maint) puppetlabs_spec_helper ~>0.10.3,ferventcoder,2015-07-23 19:26:54 UTC,,false
+puppetlabs/puppetlabs-powershell,14,Powershell Facts,cyberious,2014-05-28 20:26:49 UTC,,false
+puppetlabs/puppetlabs-tomcat,97,enable install options in package resource,simontrimboy,2015-07-06 11:49:06 UTC,,false
+puppetlabs/puppetlabs-tomcat,92,Validate that catalina_base does not to end with /,PiotrCzapla,2015-06-08 18:33:35 UTC,,false
+puppetlabs/puppetlabs-tomcat,86,Inital stab at supporting setting the user,choffee,2015-04-30 17:49:43 UTC,,false
+puppetlabs/puppetlabs-tomcat,76,(MODULES-1727) Add Context Resource and ResourceLink manifests,davideagle,2015-02-07 17:56:39 UTC,,false
+puppetlabs/puppetlabs-reboot,86,(maint) puppetlabs_spec_helper ~>0.10.3,ferventcoder,2015-07-23 19:27:59 UTC,,false
+puppetlabs/puppetlabs-reboot,85,(FM-3084) Prepare 1.1.0 release in support of 2015.2.0,cyberious,2015-07-17 19:16:25 UTC,,false
+puppetlabs/puppetlabs-acl,63,(maint) puppetlabs_spec_helper ~>0.10.3,ferventcoder,2015-07-23 19:23:28 UTC,,false
+puppetlabs/puppetlabs-acl,62,[DO NOT MERGE](FM-2994) Prepare 1.1.1 release in support of PE 2015.2,cyberious,2015-07-17 19:05:14 UTC,,false
+puppetlabs/puppetlabs-aws,197,(CLOUD-351) refactor tests to be able to use Beaker,garethr,2015-07-17 14:53:30 UTC,,false
+puppetlabs/puppetlabs-aws,195,(MAINT) Remove deprecation warnings in spec tests,garethr,2015-07-16 09:27:04 UTC,,false
+puppetlabs/puppetlabs-aws,190,Fix issue with routes with nil gateway_id,mikeslattery,2015-07-01 17:52:03 UTC,,false
+puppetlabs/puppetlabs-aws,188,"Limit elastic IP association to pending, running instances",rfletcher,2015-06-26 15:08:48 UTC,,false
+puppetlabs/puppetlabs-aws,182,Configure ephemeral/instance store block devices too,benpillet,2015-06-12 05:32:29 UTC,,false
+puppetlabs/puppetlabs-aws,177,(WIP) (FM-2802) Introduce global config and credentials files in Puppet confdir,garethr,2015-06-10 15:47:41 UTC,,false
+puppetlabs/puppetlabs-aws,164,ec2_elastic_ip instance_id support bug fix for autoscaling.,CarmenAPuccio,2015-05-12 18:19:50 UTC,,false
+puppetlabs/puppetlabs-aws,159,WIP: Route53 utility functions,pjfoley,2015-05-03 12:29:20 UTC,,false
+puppetlabs/puppetlabs-aws,157,WIP - Add ability to setup Route 53 private hosted zones,pjfoley,2015-04-30 13:05:15 UTC,,false
+puppetlabs/puppetlabs-aws,149,Added ssl_certificate upload,s4mur4i,2015-04-13 12:21:17 UTC,,false
+puppetlabs/puppetlabs-aws,147,(Cloud-297) ec2_instances should support tenancy,mrzarquon,2015-04-08 21:56:18 UTC,,false
+puppetlabs/puppetlabs-aws,138,(CLOUD 271) Add a fairly advanced example using future parser and stdlib,garethr,2015-03-30 14:30:22 UTC,,false
+puppetlabs/puppetlabs-aws,132,"(CLOUD-184, CLOUD-205) Avoid ambiguity when using the AWS_REGION environment var",garethr,2015-03-24 09:51:54 UTC,,false
+puppetlabs/puppetlabs-aws,128,Add function to return the content of a file from an s3 bucket,pjfoley,2015-03-20 13:45:26 UTC,,false
+puppetlabs/puppetlabs-aws,124,(CLOUD-269) Allow setting ingress rules for default security groups in VPC,garethr,2015-03-19 10:47:50 UTC,,false
+puppetlabs/puppetlabs-aws,123,a more complete impl for ingress rules,keymone,2015-03-18 15:39:48 UTC,,false
+puppetlabs/puppetlabs-aws,122,id security groups primarily by name (falling back to vpc_name / group_name) and much more,keymone,2015-03-18 14:54:05 UTC,,false
+puppetlabs/puppetlabs-aws,117,"(DO NOT MERGE)(CLOUD-184, CLOUD-205) Make the region param and ENV var interchangable",garethr,2015-03-18 10:15:12 UTC,,false
+puppetlabs/puppetlabs-aws,95,Designate load balancers in autoscaling groups,brianwhigham,2015-03-04 02:53:07 UTC,,false
+puppetlabs/puppetlabs-docker_platform,7,Added comma,marshyski,2015-06-26 05:32:50 UTC,,false

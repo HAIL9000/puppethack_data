@@ -1,13 +1,23 @@
 require 'octokit'
 require 'optparse'
+require 'csv'
 
 class PuppetHackData
 
   @options = {}
   @repos = []
   # The list of repos we want to track for puppet hack
-  @default_repos = ['puppetlabs/facter', 'puppetlabs/puppet', 'puppetlabs/hiera']
+  @default_repos = ['puppetlabs/puppet', 'puppetlabs/facter', 'puppetlabs/hiera', 'puppetlabs/r10k', 'puppetlabs/puppet-server',
+                    'puppetlabs/beaker', 'puppetlabs/marionette-collective', 'puppetlabs/puppetdb', 'puppetlabs/razor',
+                    'puppetlabs/trapperkeeper', 'puppetlabs/puppetlabs-vcsrepo', 'puppetlabs/puppetlabs-stdlib', 'puppetlabs/puppetlabs-apt',
+                    'puppetlabs/puppetlabs-concat', 'puppetlabs/puppetlabs-firewall', 'puppetlabs/puppetlabs-apache',
+                    'puppetlabs/puppetlabs-postgresql', 'puppetlabs/puppetlabs-ntp', 'puppetlabs/puppetlabs-inifile',
+                    'puppetlabs/puppetlabs-mysql', 'puppetlabs/puppetlabs-java', 'puppetlabs/puppetlabs-haproxy', 'puppetlabs/puppetlabs-java_ks',
+                    'puppetlabs/puppetlabs-registry', 'puppetlabs/puppetlabs-powershell', 'puppetlabs/puppetlabs-tomcat',
+                    'puppetlabs/puppetlabs-reboot', 'puppetlabs/puppetlabs-acl', 'puppetlabs/puppetlabs-aws', 'puppetlabs/puppetlabs-docker_platform']
   @pull_requests = []
+  @end_time = Time.new(2015,07,15,00,00)
+  @start_time = Time.new(2015,07,01,00,00)
 
   OptionParser.new do |opts|
     opts.on("--oauth_token TOKEN") do |token|
@@ -57,14 +67,26 @@ class PuppetHackData
   @client = Octokit::Client.new(:access_token => @options[:token])
 
   @repos.each do |repo|
-    @client.pulls(repo, {:state=> 'open'}).each do |pr|
+    puts "NOW COLLECTING DATA FOR: #{repo}"
+
+    pulls = @client.pulls(repo)
+    pulls.select{ |pull| pull[:updated_at] < @end_time and pull[:updated_at] > @start_time }
+
+    pulls.each do |pr|
       @pull_requests << {:repo => repo,
-        :number => pr.id,
+        :number => pr.number,
         :title => pr.title,
         :author => pr.user[:login],
-        :opend => pr.created_at,
+        :opened => pr.created_at,
         :closed  => pr.closed_at,
         :puppethack => (pr.title.index(/puppethack/i) ? true : false)}
+    end
+  end
+
+  CSV.open("pr_stats.csv", "wb") do |csv|
+    csv << ["Repository", "Number", "Title", "Author", "Opened At", "Closed At", "Contains [puppethack]"]
+    @pull_requests.each do |pr|
+      csv << [pr[:repo], pr[:number], pr[:title], pr[:author], pr[:opened], pr[:closed], pr[:puppethack]]
     end
   end
 
