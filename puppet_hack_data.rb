@@ -16,7 +16,8 @@ class PuppetHackData
                     'puppetlabs/puppetlabs-registry', 'puppetlabs/puppetlabs-powershell', 'puppetlabs/puppetlabs-tomcat',
                     'puppetlabs/puppetlabs-reboot', 'puppetlabs/puppetlabs-acl', 'puppetlabs/puppetlabs-aws', 'puppetlabs/puppetlabs-docker_platform']
   @pull_requests = []
-  @end_time = Time.new(2015,07,15,00,00)
+  # puppet hack takes place on 2015-07-30 from 4am-4pm
+  @end_time = Time.new(2015,07,26,00,00)
   @start_time = Time.new(2015,07,01,00,00)
 
   OptionParser.new do |opts|
@@ -66,11 +67,12 @@ class PuppetHackData
 
   @client = Octokit::Client.new(:access_token => @options[:token])
 
+  puts "Let's collect some pull request data!"
   @repos.each do |repo|
-    puts "NOW COLLECTING DATA FOR: #{repo}"
+    puts "Hang on, I'm collecting data for #{repo}..."
 
-    pulls = @client.pulls(repo)
-    pulls.select{ |pull| pull[:updated_at] < @end_time and pull[:updated_at] > @start_time }
+    pulls = @client.pulls(repo, {:state => 'all'})
+    pulls.select! { |pull| (pull[:updated_at] < @end_time) && (pull[:updated_at] > @start_time) }
 
     pulls.each do |pr|
       @pull_requests << {:repo => repo,
@@ -90,5 +92,5 @@ class PuppetHackData
     end
   end
 
-  puts @pull_requests
+  puts "Data collected! Check out pr_stats.csv for the full report! Thank you!"
 end
