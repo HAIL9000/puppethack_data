@@ -21,7 +21,7 @@ class PuppetHackData
   @start_time = Time.new(2015,07,30,16,00)
 
   OptionParser.new do |opts|
-    opts.on("--oauth_token TOKEN") do |token|
+    opts.on("--github_token TOKEN") do |token|
       @options[:token] = token
     end
 
@@ -33,18 +33,13 @@ class PuppetHackData
       @options[:end_date] = date
     end
 
-    opts.on("--closed") do
-      @options[:closed] = true
+    opts.on("--open_only") do
+      @options[:open_only] = true
     end
 
     opts.on("--repo_owner OWNER") do |owner|
       @options[:repo_owner] = owner
     end
-
-    opts.on("--github_token TOKEN") do |token|
-      @options[:token] = token
-    end
-
   end.parse!
 
   ARGV.each do |arg|
@@ -81,7 +76,12 @@ class PuppetHackData
   @repos.each do |repo|
     puts "Hang on, I'm collecting data for #{repo}..."
 
-    pulls = @client.pulls(repo, {:state => 'all'})
+    if @options[:open_only]
+      pulls = @client.pulls(repo, {:state => 'open'})
+    else
+      pulls = @client.pulls(repo, {:state => 'all'})
+    end
+
     pulls.select! { |pull| (pull[:updated_at] < @end_time) && (pull[:updated_at] > @start_time) }
 
     pulls.each do |pr|
@@ -102,5 +102,5 @@ class PuppetHackData
     end
   end
 
-  puts "Data collected! Check out pr_stats.csv for the full report! Thank you!"
+  puts "All done! I collected data for #{@pull_requests.size} pull requests! \nCheck out pr_stats.csv for the full report. Thank you!"
 end
