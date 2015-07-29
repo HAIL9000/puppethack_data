@@ -2,7 +2,6 @@ Repository,Number,Title,Username,Full Name,Puppet Labs Organization,Opened At,Cl
 puppetlabs/puppet,4086,(PUP-4848) Change CollExpr to check for future parser the correct way,hlindberg,Henrik Lindberg,true,2015-07-14 15:53:50 UTC,2015-07-14 16:24:38 UTC,false
 puppetlabs/puppet,4083,(PUP-4654) Add acceptance test for custom facts in puppet facts face,whopper,Will Hopper,true,2015-07-13 20:49:59 UTC,2015-07-14 00:02:13 UTC,false
 puppetlabs/puppet,4082,(RE-5087) Fix init script behavior on sles/suse when run by puppet,shrug,Rob Braden,true,2015-07-13 18:43:53 UTC,2015-07-13 20:33:05 UTC,false
-puppetlabs/puppet,4080,(docs) Improve and shorten descriptions of epp and inline_epp functions,nfagerlund,Nick Fagerlund,true,2015-07-10 22:37:48 UTC,2015-07-13 21:06:38 UTC,false
 puppetlabs/facter,1056,(FACT-1125) Include facter bin in PATH on windows,jpartlow,Josh Partlow,true,2015-07-14 23:00:17 UTC,2015-07-15 00:17:51 UTC,false
 puppetlabs/facter,1055,(maint) Update README to make submodule initialization more visible.,peterhuene,Peter Huene,true,2015-07-14 22:57:21 UTC,2015-07-15 05:01:12 UTC,false
 puppetlabs/hiera,276,(maint) Install dmg during osx acceptance,joshcooper,Josh Cooper,true,2015-07-08 23:56:20 UTC,2015-07-09 00:33:56 UTC,false
