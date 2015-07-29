@@ -1,27 +1,116 @@
 Repository,Number,Title,Username,Full Name,Puppet Labs Organization,Opened At,Closed At,Contains [puppethack]
-puppetlabs/puppet,4094,(RE-5032) fully qualify the label in the osx puppet plist,heathseals,Heath Seals,true,2015-07-17 09:22:07 UTC,2015-07-20 16:03:51 UTC,false
-puppetlabs/puppet,4084,(PUP-3328) tidy should follow symlinks,clehene,Cosmin Lehene,false,2015-07-13 23:05:45 UTC,,false
-puppetlabs/puppet,4081,(PUP-4847) Fix using master to create tmpdir name,MikaelSmith,Michael Smith,true,2015-07-10 23:00:55 UTC,2015-07-10 23:56:28 UTC,false
-puppetlabs/puppet,4079,(PUP-4847) Reset Facter after changing $LOAD_PATH,MikaelSmith,Michael Smith,true,2015-07-10 16:31:34 UTC,2015-07-10 18:16:55 UTC,false
-puppetlabs/facter,1066,(FACT-1134) Move Amazon check to match Facter 2.x,MikaelSmith,Michael Smith,true,2015-07-17 18:49:25 UTC,2015-07-17 20:24:20 UTC,false
-puppetlabs/facter,1065,(FACT-1134) Fix Facter operatingsystem resolution,MikaelSmith,Michael Smith,true,2015-07-17 16:48:31 UTC,2015-07-17 18:00:50 UTC,false
-puppetlabs/hiera,279,(PUP-4757) updated :peaio build location,kevpl,Kevin Imber,true,2015-07-17 16:06:21 UTC,2015-07-20 16:05:34 UTC,false
-puppetlabs/puppet-server,642,(maint) Refactor handle-request for reuse,KevinCorcoran,Kevin Corcoran,true,2015-07-20 17:01:57 UTC,2015-07-20 23:24:51 UTC,false
-puppetlabs/puppet-server,640,(maint) Refactor handle-request for reuse,KevinCorcoran,Kevin Corcoran,true,2015-07-17 00:08:09 UTC,2015-07-20 17:02:21 UTC,false
-puppetlabs/beaker,898,(BKR-415) re-targeted puppet_pkg acceptance from 3.7.5 -> 3.8.1,kevpl,Kevin Imber,true,2015-07-20 21:17:33 UTC,2015-07-20 22:45:58 UTC,false
-puppetlabs/beaker,893,BKR-408 Supporting solaris as a beakernode,biemond,Edwin Biemond,false,2015-07-16 08:20:41 UTC,,false
-puppetlabs/marionette-collective,329,Fix typo configuratuion -> configuration,cliffano,Cliffano Subagio,false,2015-07-20 06:28:40 UTC,2015-07-20 10:24:53 UTC,false
-puppetlabs/puppetdb,1550,(PDB-700) Apply max-frame-size to consumer,mullr,Russell Mull,true,2015-07-20 17:29:05 UTC,2015-07-20 19:49:57 UTC,false
-puppetlabs/puppetlabs-stdlib,488,(maint) Fix test to not assume is_pe fact on > 4.0.0 puppet,cyberious,Travis Fields,true,2015-07-20 22:47:22 UTC,2015-07-20 23:28:57 UTC,false
-puppetlabs/puppetlabs-firewall,561,Removed reject test in acceptance test,jonnytpuppet,JT (Jonny),true,2015-07-20 15:51:37 UTC,2015-07-20 16:11:40 UTC,false
-puppetlabs/puppetlabs-firewall,559,Compatibility with Puppet 4 and Facter 3,Jmeyering,Jared Meyering,false,2015-07-14 16:37:42 UTC,2015-07-20 11:05:48 UTC,false
-puppetlabs/puppetlabs-ntp,284,Release 4.1.0 prep,bmjen,Bryan Jen,true,2015-07-20 17:48:08 UTC,2015-07-20 17:50:49 UTC,false
-puppetlabs/puppetlabs-inifile,179,Docs changes from master,hunner,Hunter Haugen,true,2015-07-20 17:01:29 UTC,2015-07-20 17:45:15 UTC,false
-puppetlabs/puppetlabs-inifile,174,(maint) fixup description of ini_setting%setting,DavidS,David Schmitt,true,2015-07-07 10:09:26 UTC,2015-07-20 11:32:14 UTC,false
-puppetlabs/puppetlabs-inifile,173,MODULES-2158: Add documentation for create_ini_settings() to README,poikilotherm,Oliver Bertuch,false,2015-06-26 14:49:05 UTC,2015-07-20 11:34:33 UTC,false
-puppetlabs/puppetlabs-inifile,170,(maint) Fix README for ini_setting parameters,thrnio,Ryan Whitehurst,true,2015-06-16 00:16:50 UTC,,false
-puppetlabs/puppetlabs-mysql,725,Add helper to install puppet/pe/puppet-agent,hunner,Hunter Haugen,true,2015-06-11 22:37:04 UTC,2015-06-15 17:28:49 UTC,false
-puppetlabs/puppetlabs-java_ks,128,(maint) Removed setup parameter,cyberious,Travis Fields,true,2015-07-20 16:53:04 UTC,2015-07-20 17:00:47 UTC,false
-puppetlabs/puppetlabs-registry,89,(MODULES-2207) Gem restrictions for Older puppet versions,ferventcoder,Rob Reynolds,true,2015-07-15 19:21:36 UTC,2015-07-17 22:56:46 UTC,false
-puppetlabs/puppetlabs-registry,79,(maint) Multiple node acceptance fixes,Iristyle,Ethan J. Brown,true,2015-03-31 00:33:44 UTC,,false
-puppetlabs/puppetlabs-powershell,62,(MODULES-2207) bin beaker-rspec to ~> 5.1,ferventcoder,Rob Reynolds,true,2015-07-17 19:10:13 UTC,2015-07-17 23:01:44 UTC,false
+puppetlabs/puppet,4086,(PUP-4848) Change CollExpr to check for future parser the correct way,hlindberg,Henrik Lindberg,true,2015-07-14 15:53:50 UTC,2015-07-14 16:24:38 UTC,false
+puppetlabs/puppet,4083,(PUP-4654) Add acceptance test for custom facts in puppet facts face,whopper,Will Hopper,true,2015-07-13 20:49:59 UTC,2015-07-14 00:02:13 UTC,false
+puppetlabs/puppet,4082,(RE-5087) Fix init script behavior on sles/suse when run by puppet,shrug,Rob Braden,true,2015-07-13 18:43:53 UTC,2015-07-13 20:33:05 UTC,false
+puppetlabs/puppet,4080,(docs) Improve and shorten descriptions of epp and inline_epp functions,nfagerlund,Nick Fagerlund,true,2015-07-10 22:37:48 UTC,2015-07-13 21:06:38 UTC,false
+puppetlabs/facter,1056,(FACT-1125) Include facter bin in PATH on windows,jpartlow,Josh Partlow,true,2015-07-14 23:00:17 UTC,2015-07-15 00:17:51 UTC,false
+puppetlabs/facter,1055,(maint) Update README to make submodule initialization more visible.,peterhuene,Peter Huene,true,2015-07-14 22:57:21 UTC,2015-07-15 05:01:12 UTC,false
+puppetlabs/hiera,276,(maint) Install dmg during osx acceptance,joshcooper,Josh Cooper,true,2015-07-08 23:56:20 UTC,2015-07-09 00:33:56 UTC,false
+puppetlabs/r10k,474,Fix issue when R10K::Settings::Collection.assign is called with nil.,scotje,Jesse Scott,true,2015-07-14 21:04:33 UTC,2015-07-14 21:12:08 UTC,false
+puppetlabs/r10k,473,(RK-146) Use settings class for normalization,adrienthebo,Adrien Thebo,true,2015-07-13 18:01:43 UTC,2015-07-13 18:21:44 UTC,false
+puppetlabs/r10k,472,[git] (RK-42) Add logging for when Git provider changes,adrienthebo,Adrien Thebo,true,2015-07-13 16:14:49 UTC,2015-07-13 18:19:09 UTC,false
+puppetlabs/r10k,471,Update test run scripts to use 2015.2,zreichert,Zach Reichert,true,2015-07-10 22:33:32 UTC,,false
+puppetlabs/r10k,470,(RK-137) enable test case for C59237,adrienthebo,Adrien Thebo,true,2015-07-10 21:58:51 UTC,2015-07-10 21:59:46 UTC,false
+puppetlabs/r10k,468,(RK-141) update test to use 100 branches,zreichert,Zach Reichert,true,2015-07-07 17:44:57 UTC,2015-07-07 17:48:27 UTC,false
+puppetlabs/r10k,466,Explain the name,edunham,E. Dunham,false,2015-07-07 00:09:21 UTC,2015-07-07 00:30:19 UTC,false
+puppetlabs/r10k,464,Maintenance,zreichert,Zach Reichert,true,2015-07-06 22:28:08 UTC,,false
+puppetlabs/r10k,459,"(RK-60) Decouple configuration loading, transformation, validation, and initialization",adrienthebo,Adrien Thebo,true,2015-06-24 23:48:57 UTC,2015-06-30 18:37:30 UTC,false
+puppetlabs/r10k,458,#455 fix issue on windows where path include spaces,lmayorga1980,Louis Mayorga,false,2015-06-19 14:43:09 UTC,,false
+puppetlabs/r10k,449,(RK-121) Improve error handling for nonexistent forge module/module releases,adrienthebo,Adrien Thebo,true,2015-06-10 18:14:51 UTC,2015-06-12 18:31:16 UTC,false
+puppetlabs/puppet-server,636,(SERVER-789) Bump puppet submodule to 4.2.0,camlow325,Jeremy Barlow,true,2015-07-13 19:25:28 UTC,2015-07-15 00:34:02 UTC,false
+puppetlabs/puppet-server,635,(SERVER-781) Add hiera as submodule,cprice404,Chris Price,true,2015-07-13 15:23:59 UTC,2015-07-15 00:28:45 UTC,false
+puppetlabs/puppet-server,634,(SERVER-251) Tweak jruby-flush tests because of performance issues,camlow325,Jeremy Barlow,true,2015-07-10 00:46:35 UTC,2015-07-13 17:16:40 UTC,false
+puppetlabs/puppet-server,633,(maint) Fix dev sample config file,KevinCorcoran,Kevin Corcoran,true,2015-07-08 21:36:07 UTC,2015-07-13 16:39:36 UTC,false
+puppetlabs/puppet-server,632,(PE-8226) log jruby events,cprice404,Chris Price,true,2015-07-07 15:16:49 UTC,2015-07-10 06:45:59 UTC,false
+puppetlabs/puppet-server,631,(packaging) Update ezbake to 0.3.13,shrug,Rob Braden,true,2015-07-06 21:34:53 UTC,2015-07-10 21:28:20 UTC,false
+puppetlabs/puppet-server,630,(SERVER-251) Add a couple of more jruby flush tests,camlow325,Jeremy Barlow,true,2015-06-29 23:59:52 UTC,2015-07-01 22:16:36 UTC,false
+puppetlabs/puppet-server,625,(SERVER-719) Improve documentation around master-dir settings,fpringvaldsen,Preben Ingvaldsen,true,2015-06-24 23:01:47 UTC,2015-07-01 22:26:18 UTC,false
+puppetlabs/beaker,891,(BKR-402) Regression in Beaker 2.18.0 AIO testing for PuppetDB usage,anodelman,alice nodelman,true,2015-07-14 17:03:19 UTC,2015-07-14 20:03:53 UTC,false
+puppetlabs/beaker,890,(BKR-403) Use rpm on sles for pe puppet-agent,justinstoller,Justin Stoller,true,2015-07-14 16:18:53 UTC,2015-07-14 17:53:04 UTC,false
+puppetlabs/beaker,888,(BKR-397) Use yum for installing pe promoted puppet-agent,justinstoller,Justin Stoller,true,2015-07-13 22:00:38 UTC,2015-07-13 23:46:55 UTC,false
+puppetlabs/beaker,887,(BKR-394) added support for 3.8/AIO mixed installations,kevpl,Kevin Imber,true,2015-07-13 15:49:37 UTC,2015-07-14 00:46:16 UTC,false
+puppetlabs/beaker,884,(maint) Allow PE puppet-agent installs on custom roles,justinstoller,Justin Stoller,true,2015-07-10 05:56:52 UTC,2015-07-10 17:04:10 UTC,false
+puppetlabs/beaker,883,(BKR-390) Scooter pipeline is using pe-httpd instead of pe-puppetserver,anodelman,alice nodelman,true,2015-07-08 22:54:13 UTC,2015-07-09 21:52:07 UTC,false
+puppetlabs/beaker,882,(BKR-388) Beaker::Host::Mac#touch returns non-existent path,anodelman,alice nodelman,true,2015-07-07 22:04:42 UTC,2015-07-09 19:45:52 UTC,false
+puppetlabs/beaker,881,(BKR-387) environment not being preserved between ssh connections...,anodelman,alice nodelman,true,2015-07-07 17:35:09 UTC,2015-07-10 21:49:48 UTC,false
+puppetlabs/marionette-collective,326,(maint) set character encoding environment variable in the osx plist,heathseals,Heath Seals,true,2015-07-13 19:16:18 UTC,2015-07-14 10:02:54 UTC,false
+puppetlabs/marionette-collective,325,(docs) DOC-2092:Use https for links to package repos,jtappa,Jorie Tappa,true,2015-07-01 17:48:52 UTC,2015-07-03 09:08:47 UTC,false
+puppetlabs/marionette-collective,323,(MAINT) fix puppet bin location on win 32bit,johnduarte,John Duarte,true,2015-06-25 00:30:05 UTC,2015-07-07 15:01:37 UTC,false
+puppetlabs/marionette-collective,322,(MCOP-521) mco runonce with powershell provider test,johnduarte,John Duarte,true,2015-06-24 16:57:23 UTC,2015-07-07 16:15:00 UTC,false
+puppetlabs/puppetdb,1542,(PDB-1787) remove remaining call to add_el5_postgres,wkalt,Wyatt Alt,true,2015-07-15 00:44:03 UTC,2015-07-15 03:14:44 UTC,false
+puppetlabs/puppetdb,1540,(maint) remove add_el5_postgres?,wkalt,Wyatt Alt,true,2015-07-14 21:57:00 UTC,2015-07-14 22:24:23 UTC,false
+puppetlabs/puppetdb,1539,(maint) Update version to 3.0.2-SNAPSHOT,mullr,Russell Mull,true,2015-07-14 21:38:59 UTC,2015-07-14 22:30:11 UTC,false
+puppetlabs/puppetdb,1538,(PDB-1767) Update release notes for version 3.0.1,mullr,Russell Mull,true,2015-07-13 21:59:07 UTC,2015-07-13 22:16:40 UTC,false
+puppetlabs/puppetdb,1537,(maint) update preinst for redhat to check for 2.x if upgrading,wkalt,Wyatt Alt,true,2015-07-13 17:45:58 UTC,2015-07-13 20:13:58 UTC,false
+puppetlabs/puppetlabs-stdlib,485,Clarify that third argument to ensure_resource() is a hash,ghoneycutt,Garrett Honeycutt,false,2015-07-13 00:11:55 UTC,2015-07-14 08:47:22 UTC,false
+puppetlabs/puppetlabs-stdlib,484,Use puppet_install_helper,mhaskel,Morgan Haskel,true,2015-07-10 00:11:48 UTC,2015-07-10 16:17:09 UTC,false
+puppetlabs/puppetlabs-stdlib,480,Add validate_slength's optional 3rd arg to README,alexjfisher,Alex Fisher,false,2015-07-06 16:10:11 UTC,2015-07-09 17:21:04 UTC,false
+puppetlabs/puppetlabs-stdlib,479,catch and rescue from looking up non-existent facts,mklette,Mathias Klette,false,2015-06-24 13:09:08 UTC,2015-07-09 17:20:01 UTC,false
+puppetlabs/puppetlabs-stdlib,476,Add ensure_latest function.,hashbrowncipher,Josh Snyder,false,2015-06-18 21:13:38 UTC,2015-07-09 17:23:46 UTC,false
+puppetlabs/puppetlabs-stdlib,473,"WIP ""Add fact for is_systemd""",nibalizer,Spencer Krum,true,2015-06-09 16:11:57 UTC,2015-07-09 17:15:59 UTC,false
+puppetlabs/puppetlabs-apt,546,Iterate through multiple keys,igalic,Igor Galić,true,2015-07-07 14:27:00 UTC,2015-07-07 16:59:40 UTC,false
+puppetlabs/puppetlabs-concat,350,Missed a typo,mhaskel,Morgan Haskel,true,2015-07-13 22:37:23 UTC,2015-07-13 23:06:25 UTC,false
+puppetlabs/puppetlabs-concat,349,Use the correct vardir in the tests,mhaskel,Morgan Haskel,true,2015-07-13 20:49:12 UTC,2015-07-13 20:53:09 UTC,false
+puppetlabs/puppetlabs-concat,348,(#2208) FreeBSD: call /usr/local/bin/ruby explicitly,gwollman,Garrett Wollman,false,2015-07-10 19:25:13 UTC,2015-07-13 22:26:21 UTC,false
+puppetlabs/puppetlabs-firewall,558,Test fixes that may prevent hanging problems during beaker tests.,jonnytpuppet,JT (Jonny),true,2015-07-03 15:27:12 UTC,2015-07-03 16:01:11 UTC,false
+puppetlabs/puppetlabs-firewall,557,(MODULES-2155) Remove note about purge restrictions,DavidS,David Schmitt,true,2015-07-03 09:56:55 UTC,2015-07-03 10:34:51 UTC,false
+puppetlabs/puppetlabs-firewall,556,Makes all the services autorequired by the firewall and firewallchain types.,jonnytpuppet,JT (Jonny),true,2015-07-02 15:43:03 UTC,2015-07-02 16:08:01 UTC,false
+puppetlabs/puppetlabs-firewall,555,MODULES-2186 - iptables rules with -A in comment,TJM,Tommy McNeely,false,2015-07-02 15:21:04 UTC,2015-07-14 13:03:45 UTC,false
+puppetlabs/puppetlabs-firewall,554,Style fixes in documentation's example code,ghoneycutt,Garrett Honeycutt,false,2015-07-02 02:20:19 UTC,2015-07-14 13:01:52 UTC,false
+puppetlabs/puppetlabs-firewall,553,Only catch changes if not EL5 due to selinux warning issue.,jonnytpuppet,JT (Jonny),true,2015-06-30 13:44:47 UTC,2015-06-30 13:57:56 UTC,false
+puppetlabs/puppetlabs-firewall,551,Fix for physdev idempotency on EL5,jonnytpuppet,JT (Jonny),true,2015-06-25 13:15:12 UTC,2015-06-25 13:32:49 UTC,false
+puppetlabs/puppetlabs-firewall,547,Removed Hiera config command in spec helper.,jonnytpuppet,JT (Jonny),true,2015-06-19 13:58:29 UTC,2015-06-19 13:58:53 UTC,false
+puppetlabs/puppetlabs-firewall,546,Excluding SLES from CLUSTERIP tests.,jonnytpuppet,JT (Jonny),true,2015-06-18 10:07:05 UTC,2015-06-18 10:09:24 UTC,false
+puppetlabs/puppetlabs-firewall,543,Fix addrtype inversion,jonnytpuppet,JT (Jonny),true,2015-06-15 13:39:32 UTC,2015-06-15 14:32:11 UTC,false
+puppetlabs/puppetlabs-apache,1153,Make Docroot optional,robbat2,Robin H. Johnson,false,2015-07-06 06:59:57 UTC,,false
+puppetlabs/puppetlabs-apache,1152,Feature/master/passengerbaseuri,aronymous,,false,2015-07-03 14:52:02 UTC,,false
+puppetlabs/puppetlabs-apache,1151,"Installs net-tools on RHEL7, so that be_listening tests work",bmjen,Bryan Jen,true,2015-07-01 18:54:45 UTC,2015-07-01 18:56:38 UTC,false
+puppetlabs/puppetlabs-apache,1150,(MODULES-2179) changes to add support for SetEnvIfNoCase,shanmer,Simon Hanmer,false,2015-07-01 13:36:32 UTC,,false
+puppetlabs/puppetlabs-postgresql,671,Allow for undefined PostGIS version.,SteveMaddison,Steve Maddison,false,2015-07-10 11:27:53 UTC,,false
+puppetlabs/puppetlabs-postgresql,669,Fix incorrect metadata,hunner,Hunter Haugen,true,2015-07-07 17:13:06 UTC,2015-07-07 17:13:30 UTC,false
+puppetlabs/puppetlabs-postgresql,668,updates metadata.json to include support for pe 2015.2,bmjen,Bryan Jen,true,2015-07-06 23:27:44 UTC,2015-07-06 23:32:28 UTC,false
+puppetlabs/puppetlabs-postgresql,667,4.4.2 prep,bmjen,Bryan Jen,true,2015-07-06 21:04:37 UTC,2015-07-06 23:22:21 UTC,false
+puppetlabs/puppetlabs-postgresql,666,Update README.md,jamielennox1,Jamie Lennox,false,2015-07-03 15:00:12 UTC,2015-07-09 11:19:32 UTC,false
+puppetlabs/puppetlabs-postgresql,665,Support granting permission on sequences.,bmjen,Bryan Jen,true,2015-07-02 17:34:06 UTC,2015-07-02 18:18:48 UTC,false
+puppetlabs/puppetlabs-postgresql,664,(MODULES-2185) Fix `withenv` execution under Puppet 2.7,domcleal,Dominic Cleal,true,2015-07-02 17:13:23 UTC,2015-07-03 10:50:24 UTC,false
+puppetlabs/puppetlabs-postgresql,663,(MODULES-2185) Fix `withenv` execution under Puppet 2.7,domcleal,Dominic Cleal,true,2015-07-02 08:32:49 UTC,2015-07-02 17:14:21 UTC,false
+puppetlabs/puppetlabs-postgresql,662,4.4.x mergeback,bmjen,Bryan Jen,true,2015-07-01 21:14:09 UTC,2015-07-01 21:45:20 UTC,false
+puppetlabs/puppetlabs-postgresql,661,{DO NOT MERGE} travisci check,bmjen,Bryan Jen,true,2015-07-01 20:33:23 UTC,2015-07-01 20:42:16 UTC,false
+puppetlabs/puppetlabs-postgresql,660,Increment version number for 4.4.1,DavidS,David Schmitt,true,2015-07-01 17:35:38 UTC,2015-07-01 17:36:51 UTC,false
+puppetlabs/puppetlabs-postgresql,659,(MODULES-2181) Fix variable scope for systemd-override,kbarber,Ken Barber,true,2015-07-01 13:16:03 UTC,2015-07-01 16:01:31 UTC,false
+puppetlabs/puppetlabs-postgresql,652,update apt module version requirement,tobru,Tobias Brunner,false,2015-06-29 12:02:58 UTC,2015-07-14 22:07:22 UTC,false
+puppetlabs/puppetlabs-ntp,281,Add tos option to the ntp.conf configuration file,HoogWater,,false,2015-07-13 10:35:12 UTC,2015-07-14 14:12:41 UTC,false
+puppetlabs/puppetlabs-ntp,280,Add tos option to the ntp.conf configuration file,HoogWater,,false,2015-07-13 07:58:26 UTC,2015-07-13 10:34:46 UTC,false
+puppetlabs/puppetlabs-ntp,279,Add tos option to the ntp.conf configuration file,HoogWater,,false,2015-07-13 07:51:31 UTC,2015-07-13 07:57:15 UTC,false
+puppetlabs/puppetlabs-ntp,278,Add tos option to the ntp.conf configuration file,HoogWater,,false,2015-07-13 07:15:25 UTC,2015-07-13 07:44:09 UTC,false
+puppetlabs/puppetlabs-ntp,263,Adding ::operatingsystem Amazon,dmcnaught,,false,2015-05-04 21:02:07 UTC,,false
+puppetlabs/puppetlabs-inifile,177,1.4.x,hunner,Hunter Haugen,true,2015-07-09 18:46:03 UTC,2015-07-09 18:50:05 UTC,false
+puppetlabs/puppetlabs-inifile,176,[WIP]Allow to specify an ensure_absent_val,Spredzy,Yanis Guenane,false,2015-07-09 17:15:35 UTC,2015-07-09 17:54:22 UTC,false
+puppetlabs/puppetlabs-inifile,175,Bump version for release,hunner,Hunter Haugen,true,2015-07-08 18:55:11 UTC,2015-07-08 20:20:45 UTC,false
+puppetlabs/puppetlabs-mysql,732,(maint) don't print diff root password in diff,DavidS,David Schmitt,true,2015-07-14 10:53:39 UTC,2015-07-14 11:16:00 UTC,false
+puppetlabs/puppetlabs-mysql,731,mysqltuner: fix source and version override,gvogets,,false,2015-07-13 13:50:16 UTC,2015-07-13 14:12:59 UTC,false
+puppetlabs/puppetlabs-mysql,726,spec_helper_acceptance: Remove conflicting yum install,DavidS,David Schmitt,true,2015-06-18 11:16:22 UTC,2015-06-18 19:20:43 UTC,false
+puppetlabs/puppetlabs-mysql,716,dont print root password in diff,tphoney,TP Honey,true,2015-05-20 11:06:46 UTC,2015-07-14 11:04:39 UTC,false
+puppetlabs/puppetlabs-java,135,Add OEL operatingsystem to java::params,zreichert,Zach Reichert,true,2015-07-14 17:05:34 UTC,2015-07-14 17:06:44 UTC,false
+puppetlabs/puppetlabs-java,134,Merge 1.4.x to master,mhaskel,Morgan Haskel,true,2015-07-09 18:54:33 UTC,2015-07-09 21:57:39 UTC,false
+puppetlabs/puppetlabs-java,132,updates metadata.json to include support for PE up to 2015.2.x,bmjen,Bryan Jen,true,2015-07-06 23:33:44 UTC,2015-07-06 23:34:35 UTC,false
+puppetlabs/puppetlabs-java,131,Release 1.4.0 prep,bmjen,Bryan Jen,true,2015-07-06 20:27:11 UTC,2015-07-06 20:27:40 UTC,false
+puppetlabs/puppetlabs-java,130,Release 1.4.0 prep,bmjen,Bryan Jen,true,2015-07-06 20:17:53 UTC,2015-07-06 20:26:20 UTC,false
+puppetlabs/puppetlabs-java,129,(MODULES-2068) add fedora to metadata.json operatingsystem_support list,bmjen,Bryan Jen,true,2015-07-01 23:40:31 UTC,2015-07-01 23:43:13 UTC,false
+puppetlabs/puppetlabs-java,126,Install update-java-alternatives on Debian for the java::config class,danielparks,Daniel Parks,true,2015-06-23 05:17:03 UTC,2015-07-02 19:27:05 UTC,false
+puppetlabs/puppetlabs-java,124,fedora support,jhoblitt,Joshua Hoblitt,true,2015-06-16 17:27:23 UTC,2015-07-02 18:09:19 UTC,false
+puppetlabs/puppetlabs-registry,87,(maint) add AppVeyor support,Iristyle,Ethan J. Brown,true,2015-07-06 16:53:30 UTC,2015-07-07 23:45:27 UTC,false
+puppetlabs/puppetlabs-registry,86,(FM-2978) Update beaker setting log_level => debug,cyberious,Travis Fields,true,2015-07-02 19:19:26 UTC,2015-07-02 20:47:28 UTC,false
+puppetlabs/puppetlabs-registry,85,(maint) Relax gem dependencies for Windows,ferventcoder,Rob Reynolds,true,2015-06-30 21:20:27 UTC,2015-07-07 20:35:31 UTC,false
+puppetlabs/puppetlabs-registry,82,(maint) Modulesync updates of various parts,cyberious,Travis Fields,true,2015-06-03 19:22:25 UTC,2015-07-10 18:13:27 UTC,false
+puppetlabs/puppetlabs-registry,70,Adjust where examples exist and remove useless init.pp from manifests directory,cyberious,Travis Fields,true,2015-02-09 18:00:38 UTC,2015-02-09 18:04:23 UTC,false
+puppetlabs/puppetlabs-powershell,53,(maint) Appveyor and Gemfile updates,cyberious,Travis Fields,true,2015-05-21 23:09:20 UTC,2015-07-10 22:09:34 UTC,false
+puppetlabs/puppetlabs-powershell,52,[DO NOT MERGE](maint) add AppVeyor,ferventcoder,Rob Reynolds,true,2015-04-30 22:14:27 UTC,2015-07-10 22:09:02 UTC,false
+puppetlabs/puppetlabs-tomcat,97,enable install options in package resource,simontrimboy,"",false,2015-07-06 11:49:06 UTC,,false
+puppetlabs/puppetlabs-tomcat,96,enable install options in package resource,simontrimboy,"",false,2015-07-06 11:46:09 UTC,2015-07-10 11:09:53 UTC,false
+puppetlabs/puppetlabs-reboot,83,(MODULES-2207) Update Modulesync,ferventcoder,Rob Reynolds,true,2015-07-10 23:40:06 UTC,2015-07-14 18:37:18 UTC,false
+puppetlabs/puppetlabs-reboot,82,(FM-2978) Update beaker setting log_level => debug,cyberious,Travis Fields,true,2015-07-02 19:20:58 UTC,2015-07-02 19:23:56 UTC,false
+puppetlabs/puppetlabs-reboot,79,Modsync future updates,cyberious,Travis Fields,true,2015-06-03 18:38:42 UTC,2015-07-11 00:57:04 UTC,false
+puppetlabs/puppetlabs-acl,60,(FM-2978) Update beaker setting log_level => debug,cyberious,Travis Fields,true,2015-07-02 17:00:34 UTC,2015-07-02 19:00:10 UTC,false
+puppetlabs/puppetlabs-aws,190,Fix issue with routes with nil gateway_id,mikeslattery,,false,2015-07-01 17:52:03 UTC,,false
+puppetlabs/puppetlabs-aws,189,(MAINT) fixes metadata.json for PMT,bmjen,Bryan Jen,true,2015-07-01 15:55:41 UTC,2015-07-01 15:59:05 UTC,false
