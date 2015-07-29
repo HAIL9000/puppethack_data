@@ -72,20 +72,25 @@ class PuppetHackData
 
   @client = Octokit::Client.new(:access_token => @options[:token])
 
+  @api_request = 0
   puts "Let's collect some pull request data!"
   @repos.each do |repo|
     puts "Hang on, I'm collecting data for #{repo}..."
 
     if @options[:open_only]
       pulls = @client.pulls(repo, {:state => 'open'})
+      @api_request += 1
     else
       pulls = @client.pulls(repo, {:state => 'all'})
+      @api_request += 1
     end
 
     pulls.select! { |pull| (pull[:updated_at] < @end_time) && (pull[:updated_at] > @start_time) }
 
+
     pulls.each do |pr|
       user = Octokit.user pr.user[:login]
+      @api_request += 1
       @pull_requests << {:repo => repo,
         :number => pr.number,
         :title => pr.title,
@@ -96,6 +101,8 @@ class PuppetHackData
         :closed  => pr.closed_at,
         :puppethack => (pr.title.index(/puppethack/i) ? true : false)}
     end
+      @api_request += 1
+      puts @api_request
   end
 
   CSV.open("pr_stats.csv", "wb") do |csv|
