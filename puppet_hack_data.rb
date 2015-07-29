@@ -85,10 +85,13 @@ class PuppetHackData
     pulls.select! { |pull| (pull[:updated_at] < @end_time) && (pull[:updated_at] > @start_time) }
 
     pulls.each do |pr|
+      user = Octokit.user pr.user[:login]
       @pull_requests << {:repo => repo,
         :number => pr.number,
         :title => pr.title,
         :author => pr.user[:login],
+        :fullname => user.name,
+        :puppetlabs => @client.organization_member?('puppetlabs', pr.user[:login]),
         :opened => pr.created_at,
         :closed  => pr.closed_at,
         :puppethack => (pr.title.index(/puppethack/i) ? true : false)}
@@ -96,9 +99,9 @@ class PuppetHackData
   end
 
   CSV.open("pr_stats.csv", "wb") do |csv|
-    csv << ["Repository", "Number", "Title", "Author", "Opened At", "Closed At", "Contains [puppethack]"]
+    csv << ["Repository", "Number", "Title", "Username", "Full Name", "Puppet Labs Organization",  "Opened At", "Closed At", "Contains [puppethack]"]
     @pull_requests.each do |pr|
-      csv << [pr[:repo], pr[:number], pr[:title], pr[:author], pr[:opened], pr[:closed], pr[:puppethack]]
+      csv << [pr[:repo], pr[:number], pr[:title], pr[:author], pr[:fullname], pr[:puppetlabs],  pr[:opened], pr[:closed], pr[:puppethack]]
     end
   end
 
