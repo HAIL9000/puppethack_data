@@ -1,16 +1,19 @@
 Repository,Number,Title,Username,Full Name,Puppet Labs Organization,Opened At,Closed At,Contains [puppethack]
+puppetlabs/puppet,4116,(PUP-3694) puppet cert fingerprint invalidhost returns zero instead of non-zero [#puppethack],rnelson0,Rob Nelson,false,2015-07-30 21:39:36 UTC,,true
 puppetlabs/puppet,4115,(FACT-1123) Adding acceptance test for facter with invalid locale,shaigy,,true,2015-07-30 19:54:30 UTC,,false
 puppetlabs/puppet,4114,"(PUP-4196) Remove ""{}"" from variables in systemd files",haus,Matthaus Owens,true,2015-07-30 19:04:28 UTC,2015-07-30 19:11:53 UTC,false
 puppetlabs/puppet,4113,(docs) fixing an outdated link.,jtappa,Jorie Tappa,true,2015-07-30 17:01:52 UTC,,false
 puppetlabs/puppet,4112,(maint) Fix file bucket spec timing issue.,peterhuene,Peter Huene,true,2015-07-30 15:28:32 UTC,2015-07-30 19:27:50 UTC,false
 puppetlabs/hiera,283,(HI-184) Inconsistent handling of fully-qualified facts when called from the command line [#puppethack],rnelson0,Rob Nelson,false,2015-07-30 13:51:36 UTC,,true
 puppetlabs/r10k,480,Update the quickstart for Puppet 4,branan,Branan Purvine-Riley,true,2015-07-30 20:03:55 UTC,,false
+puppetlabs/puppet-server,652,(MAINT) Add require statements to main helper,dankreek,Justin May,true,2015-07-30 21:47:33 UTC,,false
 puppetlabs/puppet-server,651,(SERVER-815) Add getClassInfo methods to JRubyPuppet interface,camlow325,Jeremy Barlow,true,2015-07-30 20:59:24 UTC,,false
 puppetlabs/puppetdb,1566,"(PDB-1440) implement sum, avg, min, max",wkalt,Wyatt Alt,true,2015-07-30 20:30:59 UTC,,false
 puppetlabs/puppetlabs-stdlib,495,4.7.x,hunner,Hunter Haugen,true,2015-07-30 20:27:26 UTC,2015-07-30 20:33:44 UTC,false
 puppetlabs/puppetlabs-stdlib,494,[#puppethack] Adding replace attribute to file_line,rmaika,Raymond Maika,false,2015-07-30 18:56:20 UTC,2015-07-30 20:34:26 UTC,true
 puppetlabs/puppetlabs-concat,360,mergeback 1.2.x to master,jhoblitt,Joshua Hoblitt,true,2015-07-30 18:35:45 UTC,,false
-puppetlabs/puppetlabs-apache,1169,Merge 1.6.x to master,mhaskel,Morgan Haskel,true,2015-07-30 20:19:33 UTC,,false
+puppetlabs/puppetlabs-apache,1170,Removes ruby 1.8.7 from the travisci test matrix,bmjen,Bryan Jen,true,2015-07-30 21:46:26 UTC,,false
+puppetlabs/puppetlabs-apache,1169,Merge 1.6.x to master,mhaskel,Morgan Haskel,true,2015-07-30 20:19:33 UTC,2015-07-30 21:41:42 UTC,false
 puppetlabs/puppetlabs-apache,1168,[#puppethack] Adding ability to enable/disable the secruleengine through a parameter,igalic,Igor Galić,true,2015-07-30 15:52:58 UTC,2015-07-30 17:19:21 UTC,true
 puppetlabs/puppetlabs-apache,1167,[#puppethack] Added documentation for ForceType directive (MODULES-2152),bmurtagh,Brendan Murtagh,false,2015-07-30 11:27:52 UTC,2015-07-30 18:58:11 UTC,true
 puppetlabs/puppetlabs-mysql,736,[#puppethack] do not require mysql::server when using mysql::db,igalic,Igor Galić,true,2015-07-30 14:15:04 UTC,2015-07-30 19:01:49 UTC,true
