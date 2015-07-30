@@ -1,11 +1,12 @@
 Repository,Number,Title,Username,Full Name,Puppet Labs Organization,Opened At,Closed At,Contains [puppethack]
+puppetlabs/puppet,4114,"(PUP-4196) Remove ""{}"" from variables in systemd files",haus,Matthaus Owens,true,2015-07-30 19:04:28 UTC,2015-07-30 19:11:53 UTC,false
 puppetlabs/puppet,4113,(docs) fixing an outdated link.,jtappa,Jorie Tappa,true,2015-07-30 17:01:52 UTC,,false
-puppetlabs/puppet,4112,(maint) Fix file bucket spec timing issue.,peterhuene,Peter Huene,true,2015-07-30 15:28:32 UTC,,false
+puppetlabs/puppet,4112,(maint) Fix file bucket spec timing issue.,peterhuene,Peter Huene,true,2015-07-30 15:28:32 UTC,2015-07-30 19:27:50 UTC,false
 puppetlabs/hiera,283,(HI-184) Inconsistent handling of fully-qualified facts when called from the command line [#puppethack],rnelson0,Rob Nelson,false,2015-07-30 13:51:36 UTC,,true
 puppetlabs/puppetlabs-stdlib,494,[#puppethack] Adding replace attribute to file_line,rmaika,Raymond Maika,false,2015-07-30 18:56:20 UTC,,true
 puppetlabs/puppetlabs-concat,360,mergeback 1.2.x to master,jhoblitt,Joshua Hoblitt,true,2015-07-30 18:35:45 UTC,,false
 puppetlabs/puppetlabs-apache,1168,[#puppethack] Adding ability to enable/disable the secruleengine through a parameter,igalic,Igor Galić,true,2015-07-30 15:52:58 UTC,2015-07-30 17:19:21 UTC,true
 puppetlabs/puppetlabs-apache,1167,[#puppethack] Added documentation for ForceType directive (MODULES-2152),bmurtagh,Brendan Murtagh,false,2015-07-30 11:27:52 UTC,2015-07-30 18:58:11 UTC,true
-puppetlabs/puppetlabs-mysql,736,[#puppethack] do not require mysql::server when using mysql::db,igalic,Igor Galić,true,2015-07-30 14:15:04 UTC,,true
+puppetlabs/puppetlabs-mysql,736,[#puppethack] do not require mysql::server when using mysql::db,igalic,Igor Galić,true,2015-07-30 14:15:04 UTC,2015-07-30 19:01:49 UTC,true
 puppetlabs/puppetlabs-haproxy,192,"change ENABLED variable only, don't replace whole file",jangrewe,Jan Grewe,false,2015-07-30 14:02:52 UTC,,false
 puppetlabs/puppetlabs-tomcat,102,[#puppethack] Validate that catalina_base does not to end with /,igalic,Igor Galić,true,2015-07-30 15:15:16 UTC,2015-07-30 16:57:59 UTC,true
