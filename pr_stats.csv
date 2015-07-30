@@ -5,6 +5,7 @@ puppetlabs/puppet,4113,(docs) fixing an outdated link.,jtappa,Jorie Tappa,true,2
 puppetlabs/puppet,4112,(maint) Fix file bucket spec timing issue.,peterhuene,Peter Huene,true,2015-07-30 15:28:32 UTC,2015-07-30 19:27:50 UTC,false
 puppetlabs/hiera,283,(HI-184) Inconsistent handling of fully-qualified facts when called from the command line [#puppethack],rnelson0,Rob Nelson,false,2015-07-30 13:51:36 UTC,,true
 puppetlabs/r10k,480,Update the quickstart for Puppet 4,branan,Branan Purvine-Riley,true,2015-07-30 20:03:55 UTC,,false
+puppetlabs/puppet-server,651,(SERVER-815) Add getClassInfo methods to JRubyPuppet interface,camlow325,Jeremy Barlow,true,2015-07-30 20:59:24 UTC,,false
 puppetlabs/puppetdb,1566,"(PDB-1440) implement sum, avg, min, max",wkalt,Wyatt Alt,true,2015-07-30 20:30:59 UTC,,false
 puppetlabs/puppetlabs-stdlib,495,4.7.x,hunner,Hunter Haugen,true,2015-07-30 20:27:26 UTC,2015-07-30 20:33:44 UTC,false
 puppetlabs/puppetlabs-stdlib,494,[#puppethack] Adding replace attribute to file_line,rmaika,Raymond Maika,false,2015-07-30 18:56:20 UTC,2015-07-30 20:34:26 UTC,true
