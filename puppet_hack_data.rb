@@ -17,8 +17,8 @@ class PuppetHackData
                     'puppetlabs/puppetlabs-reboot', 'puppetlabs/puppetlabs-acl', 'puppetlabs/puppetlabs-aws', 'puppetlabs/puppetlabs-docker_platform']
   @pull_requests = []
   # puppet hack takes place on 2015-07-30 from 4am-4pm
-  @end_time = Time.new(2015,07,30,04,00)
-  @start_time = Time.new(2015,07,30,16,00)
+  @start_time = Time.utc(2015,"jul",30,11,00,0)
+  @end_time = Time.utc(2015,"jul",30,23,00,0)
 
   OptionParser.new do |opts|
     opts.on("--github_token TOKEN") do |token|
@@ -82,7 +82,12 @@ class PuppetHackData
       pulls = @client.pulls(repo, {:state => 'all'})
     end
 
-    pulls.select! { |pull| (pull[:updated_at] < @end_time) && (pull[:updated_at] > @start_time) }
+
+    pulls.select! do |pull|
+      (pull[:created_at] < @end_time) && (pull[:created_at] > @start_time)
+    end
+
+
 
 
     pulls.each do |pr|

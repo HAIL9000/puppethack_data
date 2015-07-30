@@ -1,1 +1,6 @@
 Repository,Number,Title,Username,Full Name,Puppet Labs Organization,Opened At,Closed At,Contains [puppethack]
+puppetlabs/hiera,283,(HI-184) Inconsistent handling of fully-qualified facts when called from the command line [#puppethack],rnelson0,Rob Nelson,false,2015-07-30 13:51:36 UTC,,true
+puppetlabs/puppetlabs-apache,1167,[#puppethack] Added documentation for ForceType directive (MODULES-2152),bmurtagh,Brendan Murtagh,false,2015-07-30 11:27:52 UTC,,true
+puppetlabs/puppetlabs-mysql,736,[#puppethack] do not require mysql::server when using mysql::db,igalic,Igor Galić,true,2015-07-30 14:15:04 UTC,,true
+puppetlabs/puppetlabs-haproxy,192,"change ENABLED variable only, don't replace whole file",jangrewe,Jan Grewe,false,2015-07-30 14:02:52 UTC,,false
+puppetlabs/puppetlabs-tomcat,102,[#puppethack] Validate that catalina_base does not to end with /,igalic,Igor Galić,true,2015-07-30 15:15:16 UTC,,true
