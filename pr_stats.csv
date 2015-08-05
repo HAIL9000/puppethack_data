@@ -1,20 +1,20 @@
 Repository,Number,Title,Username,Full Name,Puppet Labs Organization,Opened At,Closed At,Contains [puppethack]
-puppetlabs/puppet,4116,(PUP-3694) puppet cert fingerprint invalidhost returns zero instead of non-zero [#puppethack],rnelson0,Rob Nelson,false,2015-07-30 21:39:36 UTC,,true
+puppetlabs/puppet,4116,(PUP-3694) puppet cert fingerprint invalidhost returns zero instead of non-zero [#puppethack],rnelson0,Rob Nelson,false,2015-07-30 21:39:36 UTC,2015-08-04 17:24:29 UTC,true
 puppetlabs/puppet,4115,(FACT-1123) Adding acceptance test for facter with invalid locale,shaigy,,true,2015-07-30 19:54:30 UTC,2015-07-30 22:49:17 UTC,false
 puppetlabs/puppet,4114,"(PUP-4196) Remove ""{}"" from variables in systemd files",haus,Matthaus Owens,true,2015-07-30 19:04:28 UTC,2015-07-30 19:11:53 UTC,false
-puppetlabs/puppet,4113,(docs) fixing an outdated link.,jtappa,Jorie Tappa,true,2015-07-30 17:01:52 UTC,,false
+puppetlabs/puppet,4113,(docs) fixing an outdated link.,jtappa,Jorie Tappa,true,2015-07-30 17:01:52 UTC,2015-07-31 22:05:46 UTC,false
 puppetlabs/puppet,4112,(maint) Fix file bucket spec timing issue.,peterhuene,Peter Huene,true,2015-07-30 15:28:32 UTC,2015-07-30 19:27:50 UTC,false
 puppetlabs/facter,1085,(FACT-1152) Use /sys/block in the linux FS resolver,haus,Matthaus Owens,true,2015-07-30 22:43:47 UTC,,false
 puppetlabs/hiera,283,(HI-184) Inconsistent handling of fully-qualified facts when called from the command line [#puppethack],rnelson0,Rob Nelson,false,2015-07-30 13:51:36 UTC,,true
 puppetlabs/r10k,480,Update the quickstart for Puppet 4,branan,Branan Purvine-Riley,true,2015-07-30 20:03:55 UTC,,false
-puppetlabs/puppet-server,652,(MAINT) Add require statements to main helper,dankreek,Justin May,true,2015-07-30 21:47:33 UTC,,false
+puppetlabs/puppet-server,652,(MAINT) Add require statements to main helper,dankreek,Justin May,true,2015-07-30 21:47:33 UTC,2015-07-31 06:29:17 UTC,false
 puppetlabs/puppet-server,651,(SERVER-815) Add getClassInfo methods to JRubyPuppet interface,camlow325,Jeremy Barlow,true,2015-07-30 20:59:24 UTC,,false
-puppetlabs/beaker,912,"(BKR-372) add support for ubuntu 15.04, Vivid, amd64 & i386",anodelman,alice nodelman,true,2015-07-30 22:25:31 UTC,,false
-puppetlabs/puppetdb,1566,"(PDB-1440) implement sum, avg, min, max",wkalt,Wyatt Alt,true,2015-07-30 20:30:59 UTC,,false
+puppetlabs/beaker,912,"(BKR-372) add support for ubuntu 15.04, Vivid, amd64 & i386",anodelman,alice nodelman,true,2015-07-30 22:25:31 UTC,2015-07-31 16:33:10 UTC,false
+puppetlabs/puppetdb,1566,"(PDB-1440) implement sum, avg, min, max",wkalt,Wyatt Alt,true,2015-07-30 20:30:59 UTC,2015-08-04 10:40:42 UTC,false
 puppetlabs/puppetlabs-stdlib,496,Remove colorful language from module.,pizzaops,Zee Alexander,true,2015-07-30 22:12:23 UTC,2015-07-30 22:14:23 UTC,false
 puppetlabs/puppetlabs-stdlib,495,4.7.x,hunner,Hunter Haugen,true,2015-07-30 20:27:26 UTC,2015-07-30 20:33:44 UTC,false
 puppetlabs/puppetlabs-stdlib,494,[#puppethack] Adding replace attribute to file_line,rmaika,Raymond Maika,false,2015-07-30 18:56:20 UTC,2015-07-30 20:34:26 UTC,true
-puppetlabs/puppetlabs-concat,363,(MODULES-1700) Fix broken backup,jhoblitt,Joshua Hoblitt,true,2015-07-30 22:54:41 UTC,,false
+puppetlabs/puppetlabs-concat,363,(MODULES-1700) Fix broken backup,jhoblitt,Joshua Hoblitt,true,2015-07-30 22:54:41 UTC,2015-08-03 18:39:01 UTC,false
 puppetlabs/puppetlabs-concat,362,"Revert ""Backup option breaks concat""",jhoblitt,Joshua Hoblitt,true,2015-07-30 22:33:25 UTC,2015-07-30 22:33:39 UTC,false
 puppetlabs/puppetlabs-concat,361,(MODULES-2303) add selinux related params to concat type,jhoblitt,Joshua Hoblitt,true,2015-07-30 22:25:53 UTC,,false
 puppetlabs/puppetlabs-concat,360,mergeback 1.2.x to master,jhoblitt,Joshua Hoblitt,true,2015-07-30 18:35:45 UTC,2015-07-30 22:39:59 UTC,false
