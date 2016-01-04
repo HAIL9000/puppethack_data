@@ -17,8 +17,8 @@ class PuppetHackData
                     'puppetlabs/puppetlabs-reboot', 'puppetlabs/puppetlabs-acl', 'puppetlabs/puppetlabs-aws', 'puppetlabs/puppetlabs-docker_platform']
   @pull_requests = []
   # puppet hack takes place on 2015-07-30 from 4am-4pm
-  @start_time = Time.utc(2015,"jul",30,11,00,0)
-  @end_time = Time.utc(2015,"jul",30,23,00,0)
+  @start_time = Time.utc(2015,"dec",15,11,00,0)
+  @end_time = Time.utc(2015,"dec",15,23,00,0)
 
   OptionParser.new do |opts|
     opts.on("--github_token TOKEN") do |token|
@@ -70,7 +70,7 @@ class PuppetHackData
     end
   end
 
-  @client = Octokit::Client.new(:access_token => @options[:token])
+  @client = Octokit::Client.new(:per_page => 100, :access_token => @options[:token])
 
   puts "Let's collect some pull request data!"
   @repos.each do |repo|
@@ -82,13 +82,9 @@ class PuppetHackData
       pulls = @client.pulls(repo, {:state => 'all'})
     end
 
-
     pulls.select! do |pull|
       (pull[:created_at] < @end_time) && (pull[:created_at] > @start_time)
     end
-
-
-
 
     pulls.each do |pr|
       user = @client.user pr.user[:login]
