@@ -17,8 +17,8 @@ class PuppetHackData
                     'puppetlabs/puppetlabs-reboot', 'puppetlabs/puppetlabs-acl', 'puppetlabs/puppetlabs-aws', 'puppetlabs/puppetlabs-docker_platform']
   @pull_requests = []
   # puppet hack takes place on 2015-07-30 from 4am-4pm
-  @start_time = Time.utc(2015,"dec",15,11,00,0)
-  @end_time = Time.utc(2015,"dec",15,23,00,0)
+  @start_time = Time.utc(2015,"dec",15,12,00,0)
+  @end_time = Time.utc(2015,"dec",15,24,00,0)
 
   OptionParser.new do |opts|
     opts.on("--github_token TOKEN") do |token|

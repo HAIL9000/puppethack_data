@@ -8,6 +8,7 @@ puppetlabs/puppet-server,822,Maint/master/merge up stable,nwolfe,Nate Wolfe,true
 puppetlabs/puppet-server,821,Maint/stable/merge up 2.1.x,nwolfe,Nate Wolfe,true,2015-12-15 19:48:31 UTC,2015-12-15 19:50:05 UTC,false
 puppetlabs/puppet-server,820,(MAINT) Upgrade ezbake to remove utopic target,nwolfe,Nate Wolfe,true,2015-12-15 19:38:05 UTC,2015-12-15 19:38:32 UTC,false
 puppetlabs/puppet-server,819,(MAINT) Upgrade ezbake to remove utopic target,nwolfe,Nate Wolfe,true,2015-12-15 19:31:52 UTC,2015-12-15 19:39:36 UTC,false
+puppetlabs/beaker,1037,BRK-650 fix confine logic,erikPrime,Erik,true,2015-12-15 23:02:21 UTC,2015-12-16 20:13:02 UTC,false
 puppetlabs/beaker,1036,(BKR-650) removes lines that modify self.hosts  Fixes confine :to logic,erikPrime,Erik,true,2015-12-15 20:04:21 UTC,2015-12-15 20:30:59 UTC,false
 puppetlabs/puppetdb,1786,(maint) log command sizes at debug level,wkalt,Wyatt Alt,true,2015-12-15 21:24:39 UTC,2015-12-17 20:06:16 UTC,false
 puppetlabs/puppetlabs-stdlib,558,4.10.x mergeback,bmjen,Bryan Jen,true,2015-12-15 20:37:47 UTC,2015-12-15 20:53:02 UTC,false
@@ -18,5 +19,4 @@ puppetlabs/puppetlabs-apache,1300,Skip fastcgi acceptance testing for Centos 7,p
 puppetlabs/puppetlabs-apache,1299,Fix typo with versioncmp,pabelanger,Paul Belanger,false,2015-12-15 19:24:11 UTC,2015-12-15 21:27:52 UTC,false
 puppetlabs/puppetlabs-apache,1298,Add note about fastcgi usage,pabelanger,Paul Belanger,false,2015-12-15 16:41:09 UTC,2015-12-15 19:16:47 UTC,false
 puppetlabs/puppetlabs-apache,1297,Make sure snake-oil certs are installed for beaker,pabelanger,Paul Belanger,false,2015-12-15 15:14:06 UTC,2015-12-15 16:24:11 UTC,false
-puppetlabs/puppetlabs-acl,68,(MAINT) use newer psh version to be able to run the unit tests again,DavidS,David Schmitt,true,2015-12-15 11:44:06 UTC,2015-12-15 12:25:08 UTC,false
 puppetlabs/puppetlabs-aws,263,Add support and doc for configuration file,aharden,Alex Harden,false,2015-12-15 21:10:07 UTC,2015-12-16 11:38:25 UTC,false
