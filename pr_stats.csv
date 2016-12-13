@@ -1,8 +1,19 @@
 Repository,Number,Title,Username,Full Name,Puppet Labs Organization,Opened At,Closed At,Contains [puppethack]
+puppetlabs/puppet,5427,(DO NOT MERGE)(PUP-3670) Remove Facts#strip_internal method,whopper,Will Hopper,true,2016-12-13 20:56:22 UTC,,false
 puppetlabs/puppet,5426,(PUP-1209) Allow setting empty environment vars,petems,Peter Souter,true,2016-12-13 15:20:25 UTC,,false
 puppetlabs/puppet,5425,(PUP-7003) Prevent lookup recursion error for same key in lookup and …,thallgren,Thomas Hallgren,true,2016-12-13 14:53:56 UTC,2016-12-13 15:20:07 UTC,false
+puppetlabs/facter,1482,(FACT-1505) Update URL for new release naming,MikaelSmith,Michael Smith,true,2016-12-13 20:09:47 UTC,,false
+puppetlabs/beaker,1296,(MAINT) add install puppet doc,kevpl,Kevin Imber,true,2016-12-13 18:57:35 UTC,,false
+puppetlabs/beaker,1295,(BKR-1012) Fix Host#ip on Non-English Windows,Iristyle,Ethan J. Brown,true,2016-12-13 18:57:13 UTC,,false
+puppetlabs/puppetlabs-vcsrepo,317,(MODULES-1910) document non-standard SSH port,binford2k,Ben Ford,true,2016-12-13 19:50:03 UTC,,false
 puppetlabs/puppetlabs-stdlib,701,WIP use rsync instead of scp for copying the module puppethack,tphoney,TP Honey,true,2016-12-13 12:42:25 UTC,,true
-puppetlabs/puppetlabs-firewall,667,[#puppethack] MODULES-1222 - added containment,genebean,Gene Liverman,false,2016-12-13 15:20:10 UTC,,true
+puppetlabs/puppetlabs-concat,421,[#puppethack] MODULES-3900 add resource info to error messages,aharden,Alex Harden,false,2016-12-13 17:38:41 UTC,2016-12-13 18:36:09 UTC,true
+puppetlabs/puppetlabs-firewall,667,[#puppethack] MODULES-1222 - added containment,genebean,Gene Liverman,false,2016-12-13 15:20:10 UTC,2016-12-13 18:37:08 UTC,true
+puppetlabs/puppetlabs-apache,1573,(MODULES-4156) adds RequestHeader directive to vhost template #puppethack,eputnam,Eric Putnam,true,2016-12-13 20:12:51 UTC,,true
 puppetlabs/puppetlabs-apache,1572,"[#puppethack] MODULES-2872 - clarified the use of ""default_vhost => false""",genebean,Gene Liverman,false,2016-12-13 14:43:50 UTC,2016-12-13 15:00:21 UTC,true
 puppetlabs/puppetlabs-apache,1571,Add ability to set SSLStaplingReturnResponderErrors on server level,tjikkun,Sander Hoentjen,false,2016-12-13 14:39:46 UTC,2016-12-13 15:23:16 UTC,false
+puppetlabs/puppetlabs-tomcat,187,[#puppethack] Fix fixtures.yml,ralfbosz,Ralf Bosz,false,2016-12-13 20:18:16 UTC,,true
+puppetlabs/puppetlabs-tomcat,186,#[puppethack] Fix MODULES-3224,dhollinger,David Hollinger III,false,2016-12-13 19:59:46 UTC,2016-12-13 20:00:56 UTC,true
+puppetlabs/puppetlabs-tomcat,185,#[puppethack] Fix MODULES-1986,dhollinger,David Hollinger III,false,2016-12-13 19:44:24 UTC,2016-12-13 19:53:54 UTC,true
+puppetlabs/puppetlabs-tomcat,184,#[puppethack] MODULES-4003 Fix ordering issue when using a package for installation,dhollinger,David Hollinger III,false,2016-12-13 17:23:55 UTC,2016-12-13 19:11:33 UTC,true
 puppetlabs/puppetlabs-tomcat,183,[#puppethack] Add parameter for user and group on war.pp,ralfbosz,Ralf Bosz,false,2016-12-13 15:07:27 UTC,2016-12-13 16:21:39 UTC,true
