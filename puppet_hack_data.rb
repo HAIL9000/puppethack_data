@@ -14,7 +14,8 @@ class PuppetHackData
                     'puppetlabs/puppetlabs-postgresql', 'puppetlabs/puppetlabs-ntp', 'puppetlabs/puppetlabs-inifile',
                     'puppetlabs/puppetlabs-mysql', 'puppetlabs/puppetlabs-java', 'puppetlabs/puppetlabs-haproxy', 'puppetlabs/puppetlabs-java_ks',
                     'puppetlabs/puppetlabs-registry', 'puppetlabs/puppetlabs-powershell', 'puppetlabs/puppetlabs-tomcat',
-                    'puppetlabs/puppetlabs-reboot', 'puppetlabs/puppetlabs-acl', 'puppetlabs/puppetlabs-aws', 'puppetlabs/puppetlabs-docker_platform']
+                    'puppetlabs/puppetlabs-reboot', 'puppetlabs/puppetlabs-acl', 'puppetlabs/puppetlabs-aws', 'puppetlabs/puppetlabs-docker_platform',
+                    'puppetlabs/puppet-strings']
   @pull_requests = []
   # puppet hack takes place on 2015-07-30 from 4am-4pm
   @start_time = Time.utc(2015,"jul",30,11,00,0)
