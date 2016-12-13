@@ -1,2 +1,2 @@
 Repository,Number,Title,Username,Full Name,Puppet Labs Organization,Opened At,Closed At,Contains [puppethack]
-puppetlabs/puppetlabs-stdlib,701,use rsync instead of scp for copying the module,tphoney,TP Honey,true,2016-12-13 12:42:25 UTC,,false
+puppetlabs/puppetlabs-stdlib,701,WIP use rsync instead of scp for copying the module puppethack,tphoney,TP Honey,true,2016-12-13 12:42:25 UTC,,true
