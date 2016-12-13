@@ -1,2 +1,8 @@
 Repository,Number,Title,Username,Full Name,Puppet Labs Organization,Opened At,Closed At,Contains [puppethack]
+puppetlabs/puppet,5426,(PUP-1209) Allow setting empty environment vars,petems,Peter Souter,true,2016-12-13 15:20:25 UTC,,false
+puppetlabs/puppet,5425,(PUP-7003) Prevent lookup recursion error for same key in lookup and …,thallgren,Thomas Hallgren,true,2016-12-13 14:53:56 UTC,2016-12-13 15:20:07 UTC,false
 puppetlabs/puppetlabs-stdlib,701,WIP use rsync instead of scp for copying the module puppethack,tphoney,TP Honey,true,2016-12-13 12:42:25 UTC,,true
+puppetlabs/puppetlabs-firewall,667,[#puppethack] MODULES-1222 - added containment,genebean,Gene Liverman,false,2016-12-13 15:20:10 UTC,,true
+puppetlabs/puppetlabs-apache,1572,"[#puppethack] MODULES-2872 - clarified the use of ""default_vhost => false""",genebean,Gene Liverman,false,2016-12-13 14:43:50 UTC,2016-12-13 15:00:21 UTC,true
+puppetlabs/puppetlabs-apache,1571,Add ability to set SSLStaplingReturnResponderErrors on server level,tjikkun,Sander Hoentjen,false,2016-12-13 14:39:46 UTC,2016-12-13 15:23:16 UTC,false
+puppetlabs/puppetlabs-tomcat,183,[#puppethack] Add parameter for user and group on war.pp,ralfbosz,Ralf Bosz,false,2016-12-13 15:07:27 UTC,,true
