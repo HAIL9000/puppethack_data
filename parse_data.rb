@@ -24,13 +24,14 @@ class ParseData
       pull_requests_by_date[date] = []
     end
 
-    pull_requests_by_date[date] << [pr[REPO], pr[PR_NUMBER], pr[PUPPET_LABS]]
+    pull_requests_by_date[date] << [pr[REPO], pr[PR_NUMBER], pr[PUPPET_LABS], pr[PUPPETHACK]]
   end
 
   total_prs = 0
   total_days = 0
 
   community_total_prs = 0
+  puppethack_total_prs = 0
 
   pull_requests_by_date.each do |date, pr_array|
     community_total = 0
@@ -43,6 +44,10 @@ class ParseData
         community_total_prs += 1
         community_total += 1
       end
+
+      if pr[3] == 'true'
+        puppethack_total_prs += 1
+      end
     end
   end
 
@@ -50,6 +55,7 @@ class ParseData
   average_per_day = total_prs.fdiv(total_days).round(1)
   average_per_day_community = community_total_prs.fdiv(total_days).round(1)
   percent_community = ((community_total_prs.fdiv(total_prs))*100).round(2)
+  percent_puppethack = ((puppethack_total_prs.fdiv(total_prs))*100).round(2)
 
   puts <<-RESULTS
 
@@ -63,6 +69,8 @@ class ParseData
   Average per day: #{average_per_day}
   Community average per day: #{average_per_day_community} 
   Percentage from community: #{percent_community}%
+  Total with 'puppethack' in title: #{puppethack_total_prs}
+  Percentage with 'puppethack' in title: #{percent_puppethack}
 
  RESULTS
 end
