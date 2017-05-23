@@ -1,14 +1,24 @@
 Repository,Number,Title,Username,Full Name,Puppet Labs Organization,Opened At,Closed At,Contains [puppethack]
+puppetlabs/puppet,5902,(PUP-2551) Simplify lowercase certname warning,drewablank,,true,2017-05-23 16:53:33 UTC,,false
+puppetlabs/puppet,5901,PUP-6164: Tech-debt: links.puppetlabs.com -> links.puppet.com,angrox,Martin Zehetmayer,false,2017-05-23 15:36:45 UTC,2017-05-23 16:28:55 UTC,false
 puppetlabs/puppet,5900,(PUP-7587) Puppet Type System should treat Hash and Array subclasses as objects,thallgren,Thomas Hallgren,true,2017-05-23 11:09:26 UTC,2017-05-23 14:21:33 UTC,false
-puppetlabs/puppetlabs-firewall,705,(Modules-1141) No longer accepts an array for icmp types #puppethack,spynappels,,true,2017-05-23 14:44:02 UTC,,true
-puppetlabs/puppetlabs-firewall,704,MODULES-4828 version_requirement updated,neilbinney,,true,2017-05-23 13:14:23 UTC,2017-05-23 13:41:36 UTC,false
+puppetlabs/facter,1570,PUP-6164: Tech-debt: links.puppetlabs.com -> links.puppet.com,angrox,Martin Zehetmayer,false,2017-05-23 15:25:40 UTC,,false
+puppetlabs/hiera,394,PUP-6164: Tech-debt: links.puppetlabs.com -> links.puppet.com,angrox,Martin Zehetmayer,false,2017-05-23 15:49:05 UTC,,false
+puppetlabs/puppetlabs-vcsrepo,333,MODULES-4823 puppetlabs-vcsrepo: Update the version compatibility to >= 4.7.0 < 5.0.0,marsmensch,Florian Maier,false,2017-05-23 15:12:40 UTC,2017-05-23 18:17:28 UTC,false
+puppetlabs/puppetlabs-stdlib,778,MODULES-4821 puppetlabs-stdlib: Update the version compatibility to >= 4.7.0 < 5.0.0,marsmensch,Florian Maier,false,2017-05-23 15:29:57 UTC,,false
+puppetlabs/puppetlabs-firewall,705,(Modules-1141) No longer accepts an array for icmp types #puppethack,spynappels,,true,2017-05-23 14:44:02 UTC,2017-05-23 15:08:36 UTC,true
+puppetlabs/puppetlabs-firewall,704,MODULES-4828 version_requirement updated #puppethack,neilbinney,,true,2017-05-23 13:14:23 UTC,2017-05-23 13:41:36 UTC,true
 puppetlabs/puppetlabs-apache,1628,MODULES-4824: Update the version compatibility to >= 4.7.0 < 5.0.0,angrox,Martin Zehetmayer,false,2017-05-23 13:18:07 UTC,2017-05-23 13:48:47 UTC,false
+puppetlabs/puppetlabs-postgresql,871,MODULES-4826 puppetlabs-postgresql: Update the version compatibility to >= 4.7.0 < 5.0.0,marsmensch,Florian Maier,false,2017-05-23 15:59:45 UTC,,false
 puppetlabs/puppetlabs-ntp,402,MODULES-4827 puppetlabs-ntp: Update the version compatibility to >= 4…,marsmensch,Florian Maier,false,2017-05-23 13:58:45 UTC,,false
 puppetlabs/puppetlabs-inifile,236,MODULES-4830 Updating Puppet version requirement,HelenCampbell,Helen,true,2017-05-23 14:31:36 UTC,2017-05-23 14:51:37 UTC,false
+puppetlabs/puppetlabs-java,227,(MODULES-4892) Update metadata,chsnell,Chris Snell,false,2017-05-23 16:50:54 UTC,,false
 puppetlabs/puppetlabs-haproxy,281,[MODULES-4831] bumps puppet version requirement [#puppethack],chadh,Chad Huneycutt,false,2017-05-23 13:54:10 UTC,,true
-puppetlabs/puppetlabs-java_ks,183,(MODULES-4833) Update to Puppet version dependancy,HelenCampbell,Helen,true,2017-05-23 12:56:48 UTC,2017-05-23 13:07:51 UTC,false
-puppetlabs/puppetlabs-registry,131,[#puppethack] Ticketnr MODULES-4835,lbayerlein,,false,2017-05-23 14:05:53 UTC,,true
-puppetlabs/puppetlabs-tomcat,215,[#puppethack] Ticketnr MODULES-4834,lbayerlein,,false,2017-05-23 14:07:46 UTC,,true
-puppetlabs/puppetlabs-reboot,130,[#puppethack] Ticketnr MODULES-4836,lbayerlein,,false,2017-05-23 14:03:01 UTC,,true
-puppetlabs/puppetlabs-acl,101,[#puppethack] Ticketnr MODULES-4838,lbayerlein,,false,2017-05-23 14:00:43 UTC,,true
-puppetlabs/puppetlabs-docker_platform,21,MODULES-4847 version_requirement updated,neilbinney,,true,2017-05-23 13:05:05 UTC,2017-05-23 13:09:21 UTC,false
+puppetlabs/puppetlabs-java_ks,183,(MODULES-4833) Update to Puppet version dependancy #puppethack,HelenCampbell,Helen,true,2017-05-23 12:56:48 UTC,2017-05-23 13:07:51 UTC,true
+puppetlabs/puppetlabs-registry,131,(MODULES-4835) Update puppet compatibility with 4.7 as lower bound,lbayerlein,,false,2017-05-23 14:05:53 UTC,2017-05-23 17:33:25 UTC,false
+puppetlabs/puppetlabs-powershell,181,MODULES-4822 Updated metadata for Puppet 4.7,jsing3r,Josef Singer,true,2017-05-23 18:16:05 UTC,2017-05-23 18:26:35 UTC,false
+puppetlabs/puppetlabs-powershell,180,MODULES-4822 puppetlabs-powershell: Update the version compatibility to >= 4.7.0 < 5.0.0,marsmensch,Florian Maier,false,2017-05-23 15:25:01 UTC,2017-05-23 17:55:23 UTC,false
+puppetlabs/puppetlabs-tomcat,215,(MODULES-4834) Update puppet compatibility with 4.7 as lower bound,lbayerlein,,false,2017-05-23 14:07:46 UTC,2017-05-23 17:41:50 UTC,false
+puppetlabs/puppetlabs-reboot,130,(MODULES-4836) Update puppet compatibility with 4.7 as lower bound,lbayerlein,,false,2017-05-23 14:03:01 UTC,2017-05-23 17:33:54 UTC,false
+puppetlabs/puppetlabs-acl,101,[#puppethack] Ticketnr MODULES-4838,lbayerlein,,false,2017-05-23 14:00:43 UTC,2017-05-23 16:53:32 UTC,true
+puppetlabs/puppetlabs-docker_platform,21,MODULES-4847 version_requirement updated #puppethack,neilbinney,,true,2017-05-23 13:05:05 UTC,2017-05-23 13:09:21 UTC,true
