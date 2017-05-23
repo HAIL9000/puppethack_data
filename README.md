@@ -1,10 +1,10 @@
-#Puppet Hack Data
+# Puppet Hack Data
 
 This is a little app to collect pull request data. It was created to be used for #puppethack, so all the default
 settings (e.g. dates, repos) reflect that fact. This is a ruby CLI app which will produce a CSV full of data for
 the request pull requests.
 
-##Installation
+## Installation
 
 To install this app, simply clone the repository. Then run a bundle install to get the gems you need:
 
@@ -13,7 +13,7 @@ To install this app, simply clone the repository. Then run a bundle install to g
   bundle install
 ```
 
-##Usage
+## Usage
 
 To run puppet hack data use the following command:
 
@@ -45,7 +45,7 @@ of repos as an argument.
 One you list all your options you can also pass in a white space seperated list of respository names if you don't want
 to use the default list.
 
-##Examples
+## Examples
 
 Using all default values:
 ```
