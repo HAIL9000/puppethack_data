@@ -1,3 +1,14 @@
 Repository,Number,Title,Username,Full Name,Puppet Labs Organization,Opened At,Closed At,Contains [puppethack]
-puppetlabs/puppet,5900,(PUP-7587) Puppet Type System should treat Hash and Array subclasses as objects,thallgren,Thomas Hallgren,true,2017-05-23 11:09:26 UTC,,false
-puppetlabs/puppetlabs-java_ks,183,(MODULES-4833) Update to Puppet version dependancy,HelenCampbell,Helen,true,2017-05-23 12:56:48 UTC,,false
+puppetlabs/puppet,5900,(PUP-7587) Puppet Type System should treat Hash and Array subclasses as objects,thallgren,Thomas Hallgren,true,2017-05-23 11:09:26 UTC,2017-05-23 14:21:33 UTC,false
+puppetlabs/puppetlabs-firewall,705,(Modules-1141) No longer accepts an array for icmp types #puppethack,spynappels,,true,2017-05-23 14:44:02 UTC,,true
+puppetlabs/puppetlabs-firewall,704,MODULES-4828 version_requirement updated,neilbinney,,true,2017-05-23 13:14:23 UTC,2017-05-23 13:41:36 UTC,false
+puppetlabs/puppetlabs-apache,1628,MODULES-4824: Update the version compatibility to >= 4.7.0 < 5.0.0,angrox,Martin Zehetmayer,false,2017-05-23 13:18:07 UTC,2017-05-23 13:48:47 UTC,false
+puppetlabs/puppetlabs-ntp,402,MODULES-4827 puppetlabs-ntp: Update the version compatibility to >= 4…,marsmensch,Florian Maier,false,2017-05-23 13:58:45 UTC,,false
+puppetlabs/puppetlabs-inifile,236,MODULES-4830 Updating Puppet version requirement,HelenCampbell,Helen,true,2017-05-23 14:31:36 UTC,2017-05-23 14:51:37 UTC,false
+puppetlabs/puppetlabs-haproxy,281,[MODULES-4831] bumps puppet version requirement [#puppethack],chadh,Chad Huneycutt,false,2017-05-23 13:54:10 UTC,,true
+puppetlabs/puppetlabs-java_ks,183,(MODULES-4833) Update to Puppet version dependancy,HelenCampbell,Helen,true,2017-05-23 12:56:48 UTC,2017-05-23 13:07:51 UTC,false
+puppetlabs/puppetlabs-registry,131,[#puppethack] Ticketnr MODULES-4835,lbayerlein,,false,2017-05-23 14:05:53 UTC,,true
+puppetlabs/puppetlabs-tomcat,215,[#puppethack] Ticketnr MODULES-4834,lbayerlein,,false,2017-05-23 14:07:46 UTC,,true
+puppetlabs/puppetlabs-reboot,130,[#puppethack] Ticketnr MODULES-4836,lbayerlein,,false,2017-05-23 14:03:01 UTC,,true
+puppetlabs/puppetlabs-acl,101,[#puppethack] Ticketnr MODULES-4838,lbayerlein,,false,2017-05-23 14:00:43 UTC,,true
+puppetlabs/puppetlabs-docker_platform,21,MODULES-4847 version_requirement updated,neilbinney,,true,2017-05-23 13:05:05 UTC,2017-05-23 13:09:21 UTC,false
