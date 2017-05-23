@@ -18,8 +18,8 @@ class PuppetHackData
                     'puppetlabs/puppet-strings']
   @pull_requests = []
   # puppet hack takes place on 2015-07-30 from 4am-4pm
-  @start_time = Time.utc(2015,"jul",30,11,00,0)
-  @end_time = Time.utc(2015,"jul",30,23,00,0)
+  @start_time = Time.utc(2017,"may",23,11,00,0)
+  @end_time = Time.utc(2017,"may",24,01,00,0)
 
   OptionParser.new do |opts|
     opts.on("--github_token TOKEN") do |token|

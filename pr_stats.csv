@@ -1,0 +1,2 @@
+Repository,Number,Title,Username,Full Name,Puppet Labs Organization,Opened At,Closed At,Contains [puppethack]
+puppetlabs/puppet,5900,(PUP-7587) Puppet Type System should treat Hash and Array subclasses as objects,thallgren,Thomas Hallgren,true,2017-05-23 11:09:26 UTC,,false
