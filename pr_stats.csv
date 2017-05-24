@@ -1,9 +1,20 @@
 Repository,Number,Title,Username,Full Name,Puppet Labs Organization,Opened At,Closed At,Contains [puppethack]
-puppetlabs/puppet,5902,(PUP-2551) Simplify lowercase certname warning,drewablank,,true,2017-05-23 16:53:33 UTC,,false
+puppetlabs/puppet,5906,(PUP-7413) remove check for `:select_terminus` in indirection,MosesMendoza,Moses Mendoza,true,2017-05-23 21:24:59 UTC,,false
+puppetlabs/puppet,5905,(docs) correct code comment for Indirection#prepare,MosesMendoza,Moses Mendoza,true,2017-05-23 21:03:26 UTC,2017-05-24 00:13:51 UTC,false
+puppetlabs/puppet,5904,(PUP-6596) Bump CFPropertyList to 2.3.5 ,Iristyle,Ethan J. Brown,true,2017-05-23 20:53:50 UTC,2017-05-23 21:40:50 UTC,false
+puppetlabs/puppet,5903,(PUP-6895) Specify unique command for Python pip on Windows,tkishel,Thomas Kishel,true,2017-05-23 20:22:57 UTC,,false
+puppetlabs/puppet,5902,(PUP-2551) Simplify lowercase certname warning,drewablank,,true,2017-05-23 16:53:33 UTC,2017-05-23 21:06:38 UTC,false
 puppetlabs/puppet,5901,PUP-6164: Tech-debt: links.puppetlabs.com -> links.puppet.com,angrox,Martin Zehetmayer,false,2017-05-23 15:36:45 UTC,2017-05-23 16:28:55 UTC,false
 puppetlabs/puppet,5900,(PUP-7587) Puppet Type System should treat Hash and Array subclasses as objects,thallgren,Thomas Hallgren,true,2017-05-23 11:09:26 UTC,2017-05-23 14:21:33 UTC,false
+puppetlabs/facter,1572,(FACT-1638) Remove win32-dir from Facter,Iristyle,Ethan J. Brown,true,2017-05-23 22:43:48 UTC,2017-05-23 23:50:12 UTC,false
+puppetlabs/facter,1571,(FACT-1637) Remove win32-security gem,Iristyle,Ethan J. Brown,true,2017-05-23 21:31:50 UTC,2017-05-23 21:35:35 UTC,false
 puppetlabs/facter,1570,PUP-6164: Tech-debt: links.puppetlabs.com -> links.puppet.com,angrox,Martin Zehetmayer,false,2017-05-23 15:25:40 UTC,,false
 puppetlabs/hiera,394,PUP-6164: Tech-debt: links.puppetlabs.com -> links.puppet.com,angrox,Martin Zehetmayer,false,2017-05-23 15:49:05 UTC,,false
+puppetlabs/r10k,741,(CODEMGMT-1064) Renumber pre-suites to make room for installing dev r10k,ajroetker,Andrew Roetker,true,2017-05-23 23:20:23 UTC,2017-05-23 23:25:31 UTC,false
+puppetlabs/r10k,740,(CODEMGMT-1064) Add test symlink for component CI testing,ajroetker,Andrew Roetker,true,2017-05-23 22:04:23 UTC,2017-05-23 22:06:49 UTC,false
+puppetlabs/r10k,739,(CODEMGMT-1064) Move r10k 2.5.x CI to new pipelines,ajroetker,Andrew Roetker,true,2017-05-23 21:56:11 UTC,2017-05-23 21:59:23 UTC,false
+puppetlabs/puppet-server,1408,(maint) bump puppet submodule for SERVER-1819,adrienthebo,Adrien Thebo,true,2017-05-23 21:58:22 UTC,2017-05-23 21:59:47 UTC,false
+puppetlabs/puppetdb,2293,(PDB-3518) fix latest report id index problems,mullr,Russell Mull,true,2017-05-24 00:08:36 UTC,,false
 puppetlabs/puppetlabs-vcsrepo,333,MODULES-4823 puppetlabs-vcsrepo: Update the version compatibility to >= 4.7.0 < 5.0.0,marsmensch,Florian Maier,false,2017-05-23 15:12:40 UTC,2017-05-23 18:17:28 UTC,false
 puppetlabs/puppetlabs-stdlib,778,MODULES-4821 puppetlabs-stdlib: Update the version compatibility to >= 4.7.0 < 5.0.0,marsmensch,Florian Maier,false,2017-05-23 15:29:57 UTC,,false
 puppetlabs/puppetlabs-firewall,705,(Modules-1141) No longer accepts an array for icmp types #puppethack,spynappels,,true,2017-05-23 14:44:02 UTC,2017-05-23 15:08:36 UTC,true
@@ -12,7 +23,7 @@ puppetlabs/puppetlabs-apache,1628,MODULES-4824: Update the version compatibility
 puppetlabs/puppetlabs-postgresql,871,MODULES-4826 puppetlabs-postgresql: Update the version compatibility to >= 4.7.0 < 5.0.0,marsmensch,Florian Maier,false,2017-05-23 15:59:45 UTC,,false
 puppetlabs/puppetlabs-ntp,402,MODULES-4827 puppetlabs-ntp: Update the version compatibility to >= 4…,marsmensch,Florian Maier,false,2017-05-23 13:58:45 UTC,,false
 puppetlabs/puppetlabs-inifile,236,MODULES-4830 Updating Puppet version requirement,HelenCampbell,Helen,true,2017-05-23 14:31:36 UTC,2017-05-23 14:51:37 UTC,false
-puppetlabs/puppetlabs-java,227,(MODULES-4892) Update metadata,chsnell,Chris Snell,false,2017-05-23 16:50:54 UTC,,false
+puppetlabs/puppetlabs-java,227,(MODULES-4892) Update metadata,chsnell,Chris Snell,false,2017-05-23 16:50:54 UTC,2017-05-23 19:56:29 UTC,false
 puppetlabs/puppetlabs-haproxy,281,[MODULES-4831] bumps puppet version requirement [#puppethack],chadh,Chad Huneycutt,false,2017-05-23 13:54:10 UTC,,true
 puppetlabs/puppetlabs-java_ks,183,(MODULES-4833) Update to Puppet version dependancy #puppethack,HelenCampbell,Helen,true,2017-05-23 12:56:48 UTC,2017-05-23 13:07:51 UTC,true
 puppetlabs/puppetlabs-registry,131,(MODULES-4835) Update puppet compatibility with 4.7 as lower bound,lbayerlein,,false,2017-05-23 14:05:53 UTC,2017-05-23 17:33:25 UTC,false
